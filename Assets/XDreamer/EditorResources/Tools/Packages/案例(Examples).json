@@ -1,0 +1,9 @@
+﻿
+{
+    "exportList": [
+        "Assets/XDreamer-Examples",
+        "Assets/StreamingAssets/XDreamer-Examples"
+    ],
+    "ignoreList" : [
+    ]
+}

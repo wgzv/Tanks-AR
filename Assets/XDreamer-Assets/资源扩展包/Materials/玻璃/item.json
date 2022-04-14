@@ -1,0 +1,59 @@
+﻿
+[
+    {
+        "tags" : [
+            "蓝色玻璃"
+        ],
+        "source" : "",
+        "guid"   : "1304379608547694c9a4fb6c8b5c837d",
+        "name"   : "GLASS_Blue",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "磨砂玻璃"
+        ],
+        "source" : "",
+        "guid"   : "783942f74b1d65244b310e39c6bf2127",
+        "name"   : "GLASS_Frosted",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "绿色玻璃"
+        ],
+        "source" : "",
+        "guid"   : "308fcde9a32c24046b2c45e45e711b84",
+        "name"   : "GLASS_Green",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "白色玻璃"
+        ],
+        "source" : "",
+        "guid"   : "0cd6b33153ccf8b4c911615fa10fc7d4",
+        "name"   : "GLASS_White",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

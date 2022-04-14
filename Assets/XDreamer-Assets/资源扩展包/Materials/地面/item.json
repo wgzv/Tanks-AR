@@ -1,0 +1,87 @@
+﻿
+[
+    {
+        "tags" : [
+            "金属地面"
+        ],
+        "source" : "",
+        "guid"   : "c3d0251e9754de14ba22b2abe488db6f",
+        "name"   : "FLOOR_Metal",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属地面"
+        ],
+        "source" : "",
+        "guid"   : "ed84e9d6088ae1b4b831f3ef613300fa",
+        "name"   : "FLOOR_Metal_02",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属地面"
+        ],
+        "source" : "",
+        "guid"   : "ae4231ede492c2541b344cf53fe60d94",
+        "name"   : "FLOOR_Metal_03",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "石板地面"
+        ],
+        "source" : "",
+        "guid"   : "91fd5e94cd765b04da95cb5515ee5d2e",
+        "name"   : "FLOOR_Pavement",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "橡胶地面"
+        ],
+        "source" : "",
+        "guid"   : "097cb9a06390817458cdc16822a5656d",
+        "name"   : "FLOOR_Rubber",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "地板砖"
+        ],
+        "source" : "",
+        "guid"   : "b265b313474d1424c87ec4a00c818f9f",
+        "name"   : "FLOOR_Tiles",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

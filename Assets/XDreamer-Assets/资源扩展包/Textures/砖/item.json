@@ -1,0 +1,227 @@
+﻿
+[
+    {
+        "tags" : [
+            "砖漫反射"
+        ],
+        "source" : "",
+        "guid"   : "52621cd8cabea784fbda21934f352278",
+        "name"   : "BRICK_01_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "砖法线"
+        ],
+        "source" : "",
+        "guid"   : "9307a218650e4634581bbccca8b60a2e",
+        "name"   : "BRICK_01_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "砖纵向漫反射"
+        ],
+        "source" : "",
+        "guid"   : "ff66594a7d41ce9419c965dfd3547147",
+        "name"   : "BRICK_01_Vertical_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "砖法线法线"
+        ],
+        "source" : "",
+        "guid"   : "017207c458d78fd4ab438379bc324e5c",
+        "name"   : "BRICK_01_Vertical_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "砖漫反射"
+        ],
+        "source" : "",
+        "guid"   : "c937977f7407a1347954429d379635c3",
+        "name"   : "BRICK_02_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "砖法线"
+        ],
+        "source" : "",
+        "guid"   : "0adfa93028e9de44c813d45f21fbd921",
+        "name"   : "BRICK_02_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "砖纵向漫反射"
+        ],
+        "source" : "",
+        "guid"   : "0ffa3355d3688634fb804d5903131f3b",
+        "name"   : "BRICK_02_Vertical_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "砖纵向法线"
+        ],
+        "source" : "",
+        "guid"   : "23755e35989b64348bfeab84bd6bbc90",
+        "name"   : "BRICK_02_Vertical_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "砖漫反射"
+        ],
+        "source" : "",
+        "guid"   : "1bdb82fb7be28c0438dda9e04edb174e",
+        "name"   : "BRICK_03_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "砖法线"
+        ],
+        "source" : "",
+        "guid"   : "04da08f5a6676664f949a30007a2d3da",
+        "name"   : "BRICK_03_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "砖漫反射"
+        ],
+        "source" : "",
+        "guid"   : "8ceeb732c5b043347b00e176303371f2",
+        "name"   : "BRICK_04_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "砖法线"
+        ],
+        "source" : "",
+        "guid"   : "21cdd38cf6c05374d94adfa72cc54d2c",
+        "name"   : "BRICK_04_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "砖漫反射"
+        ],
+        "source" : "",
+        "guid"   : "2fd6b8bcb6700f441a141cae3df93301",
+        "name"   : "BRICK_05_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "砖法线"
+        ],
+        "source" : "",
+        "guid"   : "c613ba35f0fbb224b819bf705190239c",
+        "name"   : "BRICK_05_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "砖纵向漫反射"
+        ],
+        "source" : "",
+        "guid"   : "62af4f0148a6d6147bed4f12456f030e",
+        "name"   : "BRICK_05_Vertical_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "砖纵向法线"
+        ],
+        "source" : "",
+        "guid"   : "8ff9ff503af272149a1425a0ee73c9ba",
+        "name"   : "BRICK_05_Vertical_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

@@ -1,0 +1,115 @@
+﻿
+[
+    {
+        "tags" : [
+            "木头横向漫反射"
+        ],
+        "source" : "",
+        "guid"   : "6467498688b4ade449d95601a1db4349",
+        "name"   : "WOOD_1_Horizontal_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "木头横向法线"
+        ],
+        "source" : "",
+        "guid"   : "d00860b8216bda746ac1450f9e1480de",
+        "name"   : "WOOD_1_Horizontal_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "木头纵向漫反射"
+        ],
+        "source" : "",
+        "guid"   : "48e94a190c7cb9346b5249f68ba7f4a7",
+        "name"   : "WOOD_1_Vertical_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "木头纵向法线"
+        ],
+        "source" : "",
+        "guid"   : "b2b577c451ab06d49a9edd96ae82f3e5",
+        "name"   : "WOOD_1_Vertical_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "木头漫反射"
+        ],
+        "source" : "",
+        "guid"   : "85d93f4c02809e34a921e66ffaf38ccf",
+        "name"   : "WOOD_2_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "木头法线"
+        ],
+        "source" : "",
+        "guid"   : "784b556fd25740a44bd7223f083c88ca",
+        "name"   : "WOOD_2_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "木头胶合板漫反射"
+        ],
+        "source" : "",
+        "guid"   : "cea2627c5c6928d46b92f36a11068841",
+        "name"   : "WOOD_PLYWOOD_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "木头胶合板法线"
+        ],
+        "source" : "",
+        "guid"   : "fdd4dbab1f699bc4c8688e6893567178",
+        "name"   : "WOOD_PLYWOOD_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

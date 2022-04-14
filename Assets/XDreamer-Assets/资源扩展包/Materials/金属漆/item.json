@@ -1,0 +1,409 @@
+﻿
+[
+    {
+        "tags" : [
+            "黑色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "a93c7cb8d6d49e44989ffe9454f97ac1",
+        "name"   : "METALPAINT_Black",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "白色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "b113151c05489ac4d91cced00df2e17b",
+        "name"   : "METALPAINT_White",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "红色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "2d4d704b191dd0a428e78e2bea2c8393",
+        "name"   : "METALPAINT_RedWine",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "红色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "d097c050e15101949939dfd27eab6efe",
+        "name"   : "METALPAINT_RedSat",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "红色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "724380422bbd1bd43979640e3e29c503",
+        "name"   : "METALPAINT_RedPastel",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "紫色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "3468117e6d8cf464ba4dc94e3b978063",
+        "name"   : "METALPAINT_Purple-3",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "紫色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "15212a21e1d1e084796a460bfbd6d61f",
+        "name"   : "METALPAINT_Purple-2",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "紫色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "5cd5e5519f435c44580dd4058eff202a",
+        "name"   : "METALPAINT_Purple-1",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "橙色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "6802b98cd84ca104d83d3a99e0e1b597",
+        "name"   : "METALPAINT_OrangeSat",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "橙色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "00f211cf4c364d345885befd75c984e3",
+        "name"   : "METALPAINT_OrangePastel",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "浅灰色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "6671bda4f969f2447893a32ef6ad28c3",
+        "name"   : "METALPAINT_GreyLight",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "深灰色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "0ad997eb4718e2c489bebdad920e45d8",
+        "name"   : "METALPAINT_GreyDark",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "绿色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "dc6b6ecd9e48c9c4fa100d9b06edaa01",
+        "name"   : "METALPAINT_Green-4",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "黄色划伤金属漆"
+        ],
+        "source" : "",
+        "guid"   : "c3fe6a933ca623e4f9166d56478e17ef",
+        "name"   : "METALPAINT_Yellow_Scratched",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "绿色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "72bbf23c7d544d942ae947cce278bc34",
+        "name"   : "METALPAINT_Green-3",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "绿色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "20f3cbb960b091c48914c154d63ad830",
+        "name"   : "METALPAINT_Green-1",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金黄色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "8340c903d4c52d64893316ca9b4c2074",
+        "name"   : "METALPAINT_GoldYellowSat",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "浅金黄色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "54973c1d7ee6b98458da78624977746b",
+        "name"   : "METALPAINT_GoldYellowLight",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金粉色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "304aff8fb18567f46951865ff78ecc91",
+        "name"   : "METALPAINT_GoldPink",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "b41a386349380a64faa7bfc92790ec8e",
+        "name"   : "METALPAINT_GoldPastel",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "棕褐色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "34d4bd5d2707f834aa558558e5846d15",
+        "name"   : "METALPAINT_BrownSat",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "浅棕褐色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "98531519573be4d49b0ab4f3d1416a85",
+        "name"   : "METALPAINT_BrownLight",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "深棕褐色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "c447dc0a016aa114b836b85d04a45fc4",
+        "name"   : "METALPAINT_BrownDark",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "蓝色"
+        ],
+        "source" : "",
+        "guid"   : "00fcfc0c0c307c04ca22e5014751d164",
+        "name"   : "METALPAINT_Blue-4",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "蓝色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "ba4a3335cd8b1b3439547c9d099ae790",
+        "name"   : "METALPAINT_Blue-3",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "蓝色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "d5b82d427863411498b86256e8c55f63",
+        "name"   : "METALPAINT_Blue-2",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "蓝色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "b52527fae2e93f549945c73b9533dac6",
+        "name"   : "METALPAINT_Blue-1",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "绿色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "87149f2622cb5ff41b3051700d4e936c",
+        "name"   : "METALPAINT_Green-2",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "黄色金属漆"
+        ],
+        "source" : "",
+        "guid"   : "523eedba38b54954897c0672f96f1b33",
+        "name"   : "METALPAINT_Yellow-1",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

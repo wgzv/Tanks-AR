@@ -1,0 +1,142 @@
+﻿
+[
+    {
+        "tags" : [
+            "金属裸地板漫反射"
+        ],
+        "source" : "",
+        "guid"   : "aaf61943a7f2fd540b0d4f141c424818",
+        "name"   : "METAL_BARE_FLOOR_01_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属裸地板"
+        ],
+        "source" : "",
+        "guid"   : "20d79423c0f75544f9f7b9fc300bf962",
+        "name"   : "METAL_BARE_FLOOR_01_MET",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属裸地板法线"
+        ],
+        "source" : "",
+        "guid"   : "702d8613652a6064daefd5ad26f406d0",
+        "name"   : "METAL_BARE_FLOOR_01_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属裸地板漫反射"
+        ],
+        "source" : "",
+        "guid"   : "a8366d45cdb85884889ca577ba7457f4",
+        "name"   : "METAL_BARE_FLOOR_02_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属裸地板"
+        ],
+        "source" : "",
+        "guid"   : "fe57c02cac834a041ad51f3e66595798",
+        "name"   : "METAL_BARE_FLOOR_02_MET",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属裸地板法线"
+        ],
+        "source" : "",
+        "guid"   : "b5590e862c0e08443893a1087a6b853a",
+        "name"   : "METAL_BARE_FLOOR_02_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属裸地板漫反射"
+        ],
+        "source" : "",
+        "guid"   : "f02655f509937a848a25afab40eed4ce",
+        "name"   : "METAL_BARE_FLOOR_03_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属裸地板"
+        ],
+        "source" : "",
+        "guid"   : "78644f0fc3356e748931ae04b490518b",
+        "name"   : "METAL_BARE_FLOOR_03_MET",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属裸地板法线"
+        ],
+        "source" : "",
+        "guid"   : "327211d0ef5f9ff4bb7f2d92da37b4a6",
+        "name"   : "METAL_BARE_FLOOR_03_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+        ],
+        "source" : "",
+        "guid"   : "009ab5c2013c7ef4e8ab50e1d59b1665",
+        "name"   : "金属1",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

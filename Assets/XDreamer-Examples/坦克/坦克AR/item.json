@@ -1,0 +1,15 @@
+﻿
+{
+    "tags" : [
+	"图片识别"
+    ],
+    "source" : "",
+    "guid"   : "ced7b86395400d94ab65d3a90d4783b3",
+    "name"   : "坦克AR",
+    "tip"    : "",
+    "description" : "",
+    "visable"     : true,
+    "assetType"   : "",
+    "index"       : 5,
+    "imagePath"   : "Assets/XDreamer-Examples/坦克AR/UI/坦克AR.png"
+}

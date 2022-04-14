@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XCSJ.EditorRepairman</name>
+    </assembly>
+    <members>
+        <member name="T:XCSJ.EditorRepairman.Inspectors.RepairmanManagerInspector">
+            <summary>
+            拆装属性面板
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorRepairman.Inspectors.RepairmanManagerInspector.categoryList">
+            <summary>
+            分类列表
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorRepairman.Inspectors.RepairmanManagerInspector.OnEnable">
+            <summary>
+            启用
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorRepairman.Inspectors.RepairmanManagerInspector.OnAfterVertical">
+            <summary>
+            绘制
+            </summary>
+        </member>
+        <member name="T:XCSJ.EditorRepairman.Inspectors.ItemInspector">
+            <summary>
+            项属性面板
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorRepairman.Inspectors.ItemInspector.autoFindGameObject">
+            <summary>
+            自动关联同名游戏对象
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorRepairman.Inspectors.ItemInspector.OnAfterPropertyFieldHorizontal(System.Type,UnityEditor.SerializedProperty,XCSJ.EditorCommonUtils.ArrayElementInfo)">
+            <summary>
+            自动关联同名游戏对象
+            </summary>
+            <param name="type"></param>
+            <param name="memberProperty"></param>
+            <param name="arrayElementInfo"></param>
+        </member>
+    </members>
+</doc>

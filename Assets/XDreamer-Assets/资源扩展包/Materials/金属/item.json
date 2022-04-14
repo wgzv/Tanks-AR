@@ -1,0 +1,185 @@
+﻿
+[
+    {
+        "tags" : [
+            "金属铝拉丝"
+        ],
+        "source" : "",
+        "guid"   : "8f8c56169e17eb443a1a4297e41659ef",
+        "name"   : "METAL_Aluminium_Brushed",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : false,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属黄铜"
+        ],
+        "source" : "",
+        "guid"   : "5d3060fa1a7dbc2499108ba3efc39404",
+        "name"   : "METAL_Brass-1",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属黄铜"
+        ],
+        "source" : "",
+        "guid"   : "06a405e5fab8c5b439f1c5a6e81f1d39",
+        "name"   : "METAL_Brass-2",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属铬"
+        ],
+        "source" : "",
+        "guid"   : "d3e5e0623667c9746b4d25530c7ff4c3",
+        "name"   : "METAL_Chrome",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属铜"
+        ],
+        "source" : "",
+        "guid"   : "e8b4c1b0cbbacbf4787629b33db7036b",
+        "name"   : "METAL_Copper-1",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属铜"
+        ],
+        "source" : "",
+        "guid"   : "e71dba3da4a21c2428cf31acccd74721",
+        "name"   : "METAL_Copper-2",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属亮铸铁"
+        ],
+        "source" : "",
+        "guid"   : "46b001595b65662468b8748c36e168ac",
+        "name"   : "METAL_IronCast Light",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属暗铸铁"
+        ],
+        "source" : "",
+        "guid"   : "4fd3cf2643a400f4581180200483c65b",
+        "name"   : "METAL_IronCast_Dark",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属铅划伤"
+        ],
+        "source" : "",
+        "guid"   : "bb86192589af8554c858c2a51af4299f",
+        "name"   : "METAL_Lead_Scratched",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属钢"
+        ],
+        "source" : "",
+        "guid"   : "2ddc69f50ab2e654cacabc28ad6a37d2",
+        "name"   : "METAL_Steel",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属钢半径拉丝"
+        ],
+        "source" : "",
+        "guid"   : "43e955b943eb4694b8a232748395a0cb",
+        "name"   : "METAL_Steel_RadialBrushed",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属钢生锈"
+        ],
+        "source" : "",
+        "guid"   : "b321f82f69ae86a449b5ca2010acb8da",
+        "name"   : "METAL_Steel_Rusty",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属钢划伤"
+        ],
+        "source" : "",
+        "guid"   : "d6f18069a14d0674d8a6a953ded35315",
+        "name"   : "METAL_Steel_Scratched",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

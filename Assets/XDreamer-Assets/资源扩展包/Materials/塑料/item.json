@@ -1,0 +1,548 @@
+﻿
+[
+    {
+        "tags" : [
+            "黑色塑料"
+        ],
+        "source" : "",
+        "guid"   : "a8c20da23c6e2af4f9a060a8b2989f59",
+        "name"   : "PLASTIC_Black",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "蓝色塑料"
+        ],
+        "source" : "",
+        "guid"   : "70f7ee97ce168b44abd422aad5fd8c01",
+        "name"   : "PLASTIC_Blue-1",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "蓝色塑料"
+        ],
+        "source" : "",
+        "guid"   : "ee91c322efceee0409792aa7a2e66780",
+        "name"   : "PLASTIC_Blue-2",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "蓝色塑料"
+        ],
+        "source" : "",
+        "guid"   : "3ee1e417cc24fef4f94cd9e07fe09f1f",
+        "name"   : "PLASTIC_Blue-3",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "蓝色塑料"
+        ],
+        "source" : "",
+        "guid"   : "1ab000fcc7927754e9b3836e99393177",
+        "name"   : "PLASTIC_Blue-4",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "蓝色塑料"
+        ],
+        "source" : "",
+        "guid"   : "961be7734bbc8184b928d71f04fd4cfe",
+        "name"   : "PLASTIC_Blue-5",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "棕色塑料"
+        ],
+        "source" : "",
+        "guid"   : "c1b9da1cc61c9d64fb358fd6876103f3",
+        "name"   : "PLASTIC_Brown-1",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "棕色塑料"
+        ],
+        "source" : "",
+        "guid"   : "39569f08edcb8504ca191a2b420f9d13",
+        "name"   : "PLASTIC_Brown-2",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "橙色塑料"
+        ],
+        "source" : "",
+        "guid"   : "2832eed80c52dba42b132f6bc299e029",
+        "name"   : "PLASTIC_Orange-1",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "橙色塑料"
+        ],
+        "source" : "",
+        "guid"   : "6d88e8e9a408c0c4084bdb38786edef0",
+        "name"   : "PLASTIC_Orange-2",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "绿色塑料"
+        ],
+        "source" : "",
+        "guid"   : "3ff1132d97735bd4f9579a1e027454a8",
+        "name"   : "PLASTIC_Green-1",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "绿色塑料"
+        ],
+        "source" : "",
+        "guid"   : "427fa96323ee47f4288d36c32e5a13cc",
+        "name"   : "PLASTIC_Green-2",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "绿色塑料"
+        ],
+        "source" : "",
+        "guid"   : "cf71ab6e3788c5a4c97282f24b11e919",
+        "name"   : "PLASTIC_Green-3",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "绿色塑料"
+        ],
+        "source" : "",
+        "guid"   : "f93b762207568f246a02fe9124c2e390",
+        "name"   : "PLASTIC_Green-4",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "绿色塑料"
+        ],
+        "source" : "",
+        "guid"   : "5fe98a5357d3af44285eca90173af0e9",
+        "name"   : "PLASTIC_Green-5",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "深灰色塑料"
+        ],
+        "source" : "",
+        "guid"   : "34d8afaaff2c67a4780a189b75b00df9",
+        "name"   : "PLASTIC_GreyDark",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "浅灰色塑料"
+        ],
+        "source" : "",
+        "guid"   : "ade358c5f046ea74cbd2b8d936cd385a",
+        "name"   : "PLASTIC_GreyLight",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "棕色塑料"
+        ],
+        "source" : "",
+        "guid"   : "460e16e9c0505774fb3aaecf84b9635a",
+        "name"   : "PLASTIC_Brown-3",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "奶油塑料"
+        ],
+        "source" : "",
+        "guid"   : "2f6248e6d5a432649b51894a20bbd1e2",
+        "name"   : "PLASTIC_Cream",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "粉色塑料"
+        ],
+        "source" : "",
+        "guid"   : "630d89c6ed3833d46884482db95c059d",
+        "name"   : "PLASTIC_PinkPastel",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "半透明浅绿色塑料"
+        ],
+        "source" : "",
+        "guid"   : "bd84b2884d28edd429daa9269d6752b2",
+        "name"   : "PLASTIC_Translucent_Green_Lighted",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "紫色塑料"
+        ],
+        "source" : "",
+        "guid"   : "aa2338c71f61003478216c691abda66b",
+        "name"   : "PLASTIC_Purple-1",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "紫色塑料"
+        ],
+        "source" : "",
+        "guid"   : "433642f6ad2470a4a8869d6d84b4c4da",
+        "name"   : "PLASTIC_Purple-2",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "红黑色塑料"
+        ],
+        "source" : "",
+        "guid"   : "a005ca19fc93ccf46bc4e6a192d83bb1",
+        "name"   : "PLASTIC_RedDark",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "亮红色塑料"
+        ],
+        "source" : "",
+        "guid"   : "2bc71dfdbdec1ec4787e076f43073fb2",
+        "name"   : "PLASTIC_RedLight",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+        ],
+        "source" : "",
+        "guid"   : "16cc86492feb1214787aafa728efc0f8",
+        "name"   : "PLASTIC_RedSat",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "紫红色塑料"
+        ],
+        "source" : "",
+        "guid"   : "53c6ad834c456ab4ebc7acd83a50e202",
+        "name"   : "PLASTIC_RedWine",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "沙色塑料"
+        ],
+        "source" : "",
+        "guid"   : "865a79c3b1009054b8e73aa0b4bf4686",
+        "name"   : "PLASTIC_Sand",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "黄色塑料"
+        ],
+        "source" : "",
+        "guid"   : "134e54229cf2bc442a710f6e0f694312",
+        "name"   : "PLASTIC_Yellow-1",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "粉色塑料"
+        ],
+        "source" : "",
+        "guid"   : "ed0f32d39e45f244cba148a6d1f2f0d1",
+        "name"   : "PLASTIC_PinkSat",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "半透明橙色塑料"
+        ],
+        "source" : "",
+        "guid"   : "2e92cc00e86c3784db0143f8057f69cd",
+        "name"   : "PLASTIC_Translucent_Plastic_Orange",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "半透明浅橙色塑料"
+        ],
+        "source" : "",
+        "guid"   : "34ec983c062e4fb4088d317c501e2fa1",
+        "name"   : "PLASTIC_Translucent_Plastic_Orange_Lighted",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "半透明红色塑料"
+        ],
+        "source" : "",
+        "guid"   : "0b447588a3685b847b63e031e51ef40e",
+        "name"   : "PLASTIC_Translucent_Red",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "半透明浅红色塑料"
+        ],
+        "source" : "",
+        "guid"   : "e98204547a1015b49b4aaed9d2441694",
+        "name"   : "PLASTIC_Translucent_Red_Lighted",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "半透明黄色塑料"
+        ],
+        "source" : "",
+        "guid"   : "95ca7e2481c71104aaa1df58f9e86af7",
+        "name"   : "PLASTIC_Translucent_Yellow",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "半透明浅黄色塑料"
+        ],
+        "source" : "",
+        "guid"   : "08237bfcf72bd87409fbc77a4ef4dd5f",
+        "name"   : "PLASTIC_Translucent_Yellow_Lighted",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "白色塑料"
+        ],
+        "source" : "",
+        "guid"   : "d01256765ee09c1498f304c78be55852",
+        "name"   : "PLASTIC_White",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "半透明绿色塑料"
+        ],
+        "source" : "",
+        "guid"   : "817e9e181b2c11249b355b20300af6e1",
+        "name"   : "PLASTIC_Translucent_Green",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "黄色塑料"
+        ],
+        "source" : "",
+        "guid"   : "ea145aab805f0c54980cc2dd8e222209",
+        "name"   : "PLASTIC_Yellow-2",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

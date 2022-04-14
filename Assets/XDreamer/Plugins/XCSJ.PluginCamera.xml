@@ -1,0 +1,1541 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XCSJ.PluginCamera</name>
+    </assembly>
+    <members>
+        <member name="T:XCSJ.PluginCamera.Base.BaseCameraProvider">
+            <summary>
+            基础相机提供者
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.CameraHelper">
+            <summary>
+            相机组手类
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CameraHelper.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CameraHelper.Cameras">
+            <summary>
+            相机
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CameraHelper.LegacyCameras">
+            <summary>
+            旧版相机
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.CameraManager">
+            <summary>
+            相机：相机管理器，用于控制、调度相机操作的管理器；
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CameraManager.GetScripts">
+            <summary>
+            获取脚本
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CameraManager.RunScript(System.Int32,XCSJ.Scripts.ScriptParamList)">
+            <summary>
+            执行脚本
+            </summary>
+            <param name="id"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CameraManager._legacyCameraManagerProvider">
+            <summary>
+            旧版相机管理器提供者
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginCamera.CameraManager.legacyCameraManagerProvider">
+            <summary>
+            旧版相机管理器提供者
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CameraManager._cameraManagerProvider">
+            <summary>
+            相机管理器提供者
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginCamera.CameraManager.cameraManagerProvider">
+            <summary>
+            相机管理器提供者
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CameraManager.Start">
+            <summary>
+            启动
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.Cameras.BaseCameraManagerProvider">
+            <summary>
+            基础相机管理器提供者
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.IDRange">
+            <summary>
+            ID区间
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.IDRange.Begin">
+            <summary>
+            起始
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.IDRange.End">
+            <summary>
+            结束
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.Kernel.CameraHandler">
+            <summary>
+            相机处理器
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginCamera.Kernel.CameraHandler.handler">
+            <summary>
+            相机处理器对象
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.Kernel.CameraHandler.GetScripts(XCSJ.PluginCamera.CameraManager)">
+            <summary>
+            获取脚本列表
+            </summary>
+            <param name="manager"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.Kernel.CameraHandler.RunScript(XCSJ.PluginCamera.CameraManager,System.Int32,XCSJ.Scripts.ScriptParamList)">
+            <summary>
+            执行脚本
+            </summary>
+            <param name="manager"></param>
+            <param name="id"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.Kernel.CameraHandler.GetLegacyCameraManagerProvider(XCSJ.PluginCamera.CameraManager)">
+            <summary>
+            获取旧版相机管理器提供者
+            </summary>
+            <param name="manager"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.Kernel.CameraHandler.GetCameraManagerProvider(XCSJ.PluginCamera.CameraManager)">
+            <summary>
+            获取相机管理器提供者
+            </summary>
+            <param name="manager"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.Kernel.CameraHandler.TrySetCurrentCamera(UnityEngine.Component)">
+            <summary>
+            尝试设置为当前相机：用于旧版相机
+            </summary>
+            <param name="component"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.Kernel.CameraHandler.ClearCameraCache">
+            <summary>
+            清空相机缓存：用于旧版相机
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.Kernel.ICameraHandler">
+            <summary>
+            相机处理器接口
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.Kernel.ICameraHandler.GetLegacyCameraManagerProvider(XCSJ.PluginCamera.CameraManager)">
+            <summary>
+            获取旧版相机管理器提供者
+            </summary>
+            <param name="manager"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.Kernel.ICameraHandler.GetCameraManagerProvider(XCSJ.PluginCamera.CameraManager)">
+            <summary>
+            获取相机管理器提供者
+            </summary>
+            <param name="manager"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.Kernel.ICameraHandler.TrySetCurrentCamera(UnityEngine.Component)">
+            <summary>
+            尝试设置为当前相机：用于旧版相机
+            </summary>
+            <param name="component"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.Kernel.ICameraHandler.ClearCameraCache">
+            <summary>
+            清空相机缓存：用于旧版相机
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.LegacyCameras.BaseLegacyCameraManagerProvider">
+            <summary>
+            基础旧版相机管理器提供者
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginCamera.LegacyCameras.BaseLegacyCameraManagerProvider.currentCamera">
+            <summary>
+            当前相机
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.LegacyCameras.BaseLegacyCameraManagerProvider.CMStart(XCSJ.PluginCamera.CameraManager)">
+            <summary>
+            相机管理器启用
+            </summary>
+            <param name="cameraManager"></param>
+        </member>
+        <member name="T:XCSJ.PluginCamera.AroundCamera">
+            <summary>
+            绕物旋转相机类，用以实现绕物旋转相机的一系列操作
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.AroundCamera.Start">
+            <summary>
+            启动
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.AroundCamera.OnCompleteOfResetCameraWithTween(System.Object,System.String,System.String)">
+            <summary>
+            带补间重置相机完成时回调
+            </summary>
+            <param name="tweener"></param>
+            <param name="funName"></param>
+            <param name="funParam"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.AroundCamera.RefreshInfo">
+            <summary>
+            刷新信息
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.Backdrop">
+            <summary>
+            相机背景幕布
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.Backdrop.m_shader">
+            <summary>
+            着色器:背景幕布渲染使用的着色器
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.Backdrop.image">
+            <summary>
+            图片：背景幕布渲染使用的背景图片
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.Backdrop.distance">
+            <summary>
+            距离：背景幕布与相机的距离，要求必须在相机的近裁与远裁距离范围内；
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginCamera.Backdrop.backdrop">
+            <summary>
+            背景
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginCamera.Backdrop.backdropRenderer">
+            <summary>
+            背景渲染器
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginCamera.Backdrop.mesh">
+            <summary>
+            网格
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.Backdrop.prevPosition">
+            <summary>
+            以前的位置:存储相机对象上一帧的位置信息
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginCamera.Backdrop.camera">
+            <summary>
+            相机
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.Backdrop.Reset">
+            <summary>
+            重置
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.Backdrop.Awake">
+            <summary>
+            唤醒初始化
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.Backdrop.Start">
+            <summary>
+            启动
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.Backdrop.SetImage(UnityEngine.Texture2D)">
+            <summary>
+            设置图片
+            </summary>
+            <param name="image"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.Backdrop.OnImageChanged">
+            <summary>
+            当图片修改时
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.Backdrop.Update">
+            <summary>
+            更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.Backdrop.CalcVerts">
+            <summary>
+            计算点坐标
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:XCSJ.PluginCamera.EControlMode">
+            <summary>
+            控制模式
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.EControlMode.None">
+            <summary>
+            无
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.EControlMode.Mouse">
+            <summary>
+            鼠标
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.EControlMode.Keyboard">
+            <summary>
+            键盘
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.EControlMode.Touch">
+            <summary>
+            触摸
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.BaseCamera">
+            <summary>
+            相机基类，定义相机的基础参数
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.lockCamera">
+            <summary>
+            是否锁定相机，如果为真，则相机不响应任何操作
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.controlMode">
+            <summary>
+            控制模式:对应控制模式的输入是否对当前相机对应的移动、旋转、绕物旋转等事件进行控制；
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.speedAdjustControlMode">
+            <summary>
+            速度调节控制模式:对应控制模式的输入是否对当前相机对应的速度调节事件进行控制；
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.ControlValid(XCSJ.PluginCamera.EControlMode)">
+            <summary>
+            控制有效
+            </summary>
+            <param name="controlMode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.SpeedAdjustControlValid(XCSJ.PluginCamera.EControlMode)">
+            <summary>
+            速度调节控制有效
+            </summary>
+            <param name="controlMode"></param>
+            <returns></returns>
+        </member>
+        <member name="P:XCSJ.PluginCamera.BaseCamera.tmpCameraIsLock">
+            <summary>
+            相机锁定的临时标记量；
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.updateInEdit">
+            <summary>
+            编辑态时更新:为True时，在编辑态本相机游戏对象被选中，会按照相机的各项参数做更新调整；
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.moveSpeed">
+            <summary>
+            相机移动速度:单位时间(1秒)内移动的距离值；实时移动速度 = 移动速度 * 调节信息中值系数；调节信息中值系数用于调节不同平台移动速度不同的问题；不指定特定平台时，默认为1；
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.rotateSpeed">
+            <summary>
+            相机旋转速度:单位时间(1秒)旋转的欧拉角度值；实时旋转速度 = 旋转速度 * 调节信息中值系数；调节信息中值系数用于调节不同平台移动速度不同的问题；不指定特定平台时，默认为1；
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.touch2DistanceLimitInfos">
+            <summary>
+            两指触摸距离限制信息:在两指触摸触摸时如果移动距离小于本值时不做事件响应；不指定特定平台时，默认为2；
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.touch2DistanceLimit">
+            <summary>
+            两指触摸距离限制系数:运行时平台的两指触摸距离限制信息；不指定时，默认为2；
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.keyboardMoveSpeedRealtime">
+            <summary>
+            实时移动速度;每次update中都会更新;用于键盘控制；
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.mouseMoveSpeedRealtime">
+            <summary>
+            鼠标实时移动速度
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.touchMoveSpeedRealtime">
+            <summary>
+            触摸实时移动速度
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.keyboardRotateSpeedRealtime">
+            <summary>
+            实时旋转速度;每次update中都会更新;用于键盘控制；
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.mouseRotateSpeedRealtime">
+            <summary>
+            鼠标实时旋转速度
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.touchRotateSpeedRealtime">
+            <summary>
+            触摸实时旋转速度
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.moveVector">
+            <summary>
+            移动向量，相机期望移动的目标向量
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.tmpMoveVector">
+            <summary>
+            临时移动向量，相机期望移动过程中的过程向量
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.rotateVector">
+            <summary>
+            旋转向量，相机自身游戏对象期望旋转的欧拉角向量;
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.tmpRotateVector">
+            <summary>
+            临时旋转向量，相机自身游戏对象期望旋转过程中的的欧拉角过程向量;
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.xRotateLimit">
+            <summary>
+            X轴旋转限定:绕水平X轴（即垂直旋转）旋转范围（-360 ~ 360）的左开右开区间，近视取极限值为359.9999f,基于当前旋转中心坐标系的三维right向量进行旋转；
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.yRotateLimit">
+            <summary>
+            Y轴旋转限定:绕垂直y轴（即水平旋转）旋转范围（-360 ~ 360）的左开右开区间，近视取极限值为359.9999f,基于全局坐标系三维up向量（或up向量的反向量）进行旋转；
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.needDamping">
+            <summary>
+            要求阻尼:为True时，相机发生移动或旋转时将会阻尼运动；否则，直接移动；
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.dampingCoefficient">
+            <summary>
+            阻尼系数
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.realtimeDampingCoefficient">
+            <summary>
+            实时阻尼系数
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginCamera.BaseCamera.camera">
+            <summary>
+            当前游戏对象关联的相机组件
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginCamera.BaseCamera.isCurrentCamera">
+            <summary>
+            是否是当前相机
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginCamera.BaseCamera.nearClipPlane">
+            <summary>
+            近裁截面
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginCamera.BaseCamera.farClipPlane">
+            <summary>
+            远裁截面
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginCamera.BaseCamera.fieldOfView">
+            <summary>
+            视角的缩放系数（1-179）
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginCamera.BaseCamera.originPosition">
+            <summary>
+            相机的初始位置(Vector3)
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginCamera.BaseCamera.originRotation">
+            <summary>
+            相机的初始旋转角度（四元数）
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.textShowTime">
+            <summary>
+            文本信息显示时间
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.Awake">
+            <summary>
+            唤醒时
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.Start">
+            <summary>
+            启动时
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.Update">
+            <summary>
+            相机更新操作，相机未锁定时 可响应调整相机的移动、旋转速度
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.CameraUpdate">
+            <summary>
+            相机更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.LateUpdate">
+            <summary>
+            延后更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.CameraLateUpdate">
+            <summary>
+            相机延后更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.Reset">
+            <summary>
+            重置
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.MoveTo(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)">
+            <summary>
+            移动到
+            </summary>
+            <param name="pos">位置</param>
+            <param name="rot">旋转的欧拉角度</param>
+            <param name="time"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.MoveToTarget(UnityEngine.GameObject,System.Single)">
+            <summary>
+            移动到目标
+            </summary>
+            <param name="go"></param>
+            <param name="time"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.LimitRotateAngle(UnityEngine.Vector2,System.Single,System.Single)">
+            <summary>
+            限定旋转角度
+            </summary>
+            <param name="limitRange"></param>
+            <param name="angle"></param>
+            <param name="rotateAngle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.ClampRotateVector(UnityEngine.Vector3)">
+            <summary>
+            限定旋转角度
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.AdjustSpeed">
+            <summary>
+            调整相机移动速度事件，根据需要，这里简化了原来的设定，只对移动速度进行调整
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.UpdateRealtimeSpeed">
+            <summary>
+            更新实时速度
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.IgnoreEvent">
+            <summary>
+            忽略事件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.DefaultIgnoreEvent">
+            <summary>
+            默认忽略事件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.AutoSetMoveSpeed(System.Boolean)">
+            <summary>
+            自动设置移动速度
+            </summary>
+            <param name="isPlus"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.AutoSetRotateSpeed(System.Boolean)">
+            <summary>
+            自动设置旋转速度
+            </summary>
+            <param name="isPlus"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.AutoAdjustSpeed(System.Single,System.Boolean)">
+            <summary>
+            自动调整速度
+            </summary>
+            <param name="value"></param>
+            <param name="isPlus"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.ShowCameraInfo">
+            <summary>
+            设置相机信息
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.DrawCameraInfoGUI">
+            <summary>
+            使用GUI渲染相机的移动速度、旋转速度等信息
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.SetCameraActive(System.Boolean)">
+            <summary>
+            设置相机激活
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.Move(UnityEngine.Vector3)">
+            <summary>
+            移动
+            </summary>
+            <param name="v3"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.Rotate(UnityEngine.Vector3)">
+            <summary>
+            旋转
+            </summary>
+            <param name="v3"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.TargetRotate(UnityEngine.Vector3)">
+            <summary>
+            目标旋转
+            </summary>
+            <param name="v3"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.Jump">
+            <summary>
+            跳
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.ResetCamera(System.Single,System.String,System.String)">
+            <summary>
+            重置相机
+            </summary>
+            <param name="duration"></param>
+            <param name="fun"></param>
+            <param name="param"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.ResetCameraDirect">
+            <summary>
+            直接重置相机
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCamera.reseting">
+            <summary>
+            重置相机中
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.ResetCameraWithTween(System.Single,System.String,System.String)">
+            <summary>
+            带补间重置相机
+            </summary>
+            <param name="duration"></param>
+            <param name="funName"></param>
+            <param name="funParam"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.OnCompleteOfResetCameraWithTween(System.Object,System.String,System.String)">
+            <summary>
+            带补间重置相机完成时回调
+            </summary>
+            <param name="tweener"></param>
+            <param name="funName"></param>
+            <param name="funParam"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.OnCurrent">
+            <summary>
+            当变为当前相机时
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.OnDisCurrent">
+            <summary>
+            当变为非当前相机
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.AddAudioListener">
+            <summary>
+            添加音频监听
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.RemoveAudioListener">
+            <summary>
+            移除音频监听
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.RefreshInfo">
+            <summary>
+            刷新信息
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.SetTarget(UnityEngine.GameObject)">
+            <summary>
+            设置目标
+            </summary>
+            <param name="target"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.GetTarget">
+            <summary>
+            获取目标
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.GetLimitDistance(System.Single)">
+            <summary>
+            获取限定距离
+            </summary>
+            <param name="distance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.FocusTarget(UnityEngine.GameObject,XCSJ.PluginCommonUtils.EBoundsAnchor,System.Single)">
+            <summary>
+            强制目标
+            </summary>
+            <param name="target"></param>
+            <param name="cameraFocusType"></param>
+            <param name="distanceScale"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.GetGUIContentText(System.Int32)">
+            <summary>
+            获取GUI内容文本
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.GetGUIContentTooltip(System.Int32)">
+            <summary>
+            获取GUI内容提示
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.OnDrawGizmos">
+            <summary>
+            绘制Gizmos
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCamera.OnDrawGizmosSelected">
+            <summary>
+            选中时绘制Gizmos
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.BaseCameraWithTarget">
+            <summary>
+            带目标的基础性相机
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCameraWithTarget.target">
+            <summary>
+            为了与之前版本的兼容，变量名不做修改
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCameraWithTarget.updateTargetPosition">
+            <summary>
+            更新目标坐标
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCameraWithTarget.aroundTargetPosition">
+            <summary>
+            绕物目标坐标
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCameraWithTarget.distance">
+            <summary>
+            距离
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCameraWithTarget.userDistancLimitRange">
+            <summary>
+            使用距离限定范围:为True时，本相机与目标对象的距离不在距离限定范围内时，重新限定在该范围内（即相机会发生移动）；否则，相机不做任何移动响应；
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCameraWithTarget.distancLimitRange">
+            <summary>
+            距离限定范围:本相机与跟随目标的距离值的限定范围；限定范围为： x 小于等于 距离值 小于等于 y ;
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCameraWithTarget.targetRotateVector">
+            <summary>
+            目标旋转向量，相机游戏对象期望绕目标对象旋转的欧拉角向量;
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.BaseCameraWithTarget.tmpTargetRotateVector">
+            <summary>
+            临时旋转向量，相机游戏对象期望绕目标对象旋转过程中的的欧拉角过程向量;
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCameraWithTarget.Awake">
+            <summary>
+            唤醒初始化
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCameraWithTarget.Start">
+            <summary>
+            启动
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCameraWithTarget.SetTarget(UnityEngine.GameObject)">
+            <summary>
+            设置目标
+            </summary>
+            <param name="target"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCameraWithTarget.GetTarget">
+            <summary>
+            获取目标
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCameraWithTarget.OnDrawGizmosSelected">
+            <summary>
+            当绘制选中的Gizmos
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCameraWithTarget.UpdateInEdit">
+            <summary>
+            编辑时更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCameraWithTarget.CameraUpdate">
+            <summary>
+            相机更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCameraWithTarget.LateUpdate">
+            <summary>
+            延后更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCameraWithTarget.CameraLateUpdate">
+            <summary>
+            相机延后更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCameraWithTarget.UpdateTargetPosition">
+            <summary>
+            更新目标位置
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCameraWithTarget.LookAtTarget">
+            <summary>
+            朝向目标
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCameraWithTarget.LookAtTarget(System.Single)">
+            <summary>
+            朝向目标
+            </summary>
+            <param name="distance"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCameraWithTarget.AroundWithTargetPosition">
+            <summary>
+            饶目标位置旋转
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCameraWithTarget.IgnoreEvent">
+            <summary>
+            忽略事件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCameraWithTarget.TargetRotate(UnityEngine.Vector3)">
+            <summary>
+            目标旋转
+            </summary>
+            <param name="v3"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCameraWithTarget.GetLimitDistance(System.Single)">
+            <summary>
+            获取限定距离
+            </summary>
+            <param name="distance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.BaseCameraWithTarget.ResetCameraDirect">
+            <summary>
+            直接重置相机
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.FixedAroundCamera">
+            <summary>
+            定点伸缩相机:定点伸缩相机是位置固定，可转动角度，可沿着朝向伸缩一段距离的观察相机
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.FixedAroundCamera.Start">
+            <summary>
+            启动
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.FixedAroundCamera.LookAtTarget(System.Single)">
+            <summary>
+            朝向目标
+            </summary>
+            <param name="distance"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.FixedAroundCamera.CameraLateUpdate">
+            <summary>
+            相机延后更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.FixedAroundCamera.OnCompleteOfResetCameraWithTween(System.Object,System.String,System.String)">
+            <summary>
+            带补间重置相机完成时回调
+            </summary>
+            <param name="tweener"></param>
+            <param name="funName"></param>
+            <param name="funParam"></param>
+        </member>
+        <member name="T:XCSJ.PluginCamera.FixedCamera">
+            <summary>
+            定点观察相机类，用以实现定点观察相机的一系列操作
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.FixedCamera.CameraUpdate">
+            <summary>
+            相机更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.FixedCamera.CameraLateUpdate">
+            <summary>
+            相机延后更新
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.FixedLookAtCamera">
+            <summary>
+            定点注视相机:定点注视相机是位置固定，朝向始终盯着目标对象的观察相机;方向不可调整
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.FixedLookAtCamera.CameraLateUpdate">
+            <summary>
+            相机延后更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.FixedLookAtCamera.Reset">
+            <summary>
+            重置
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.FixedLookAtCamera.Move(UnityEngine.Vector3)">
+            <summary>
+            移动
+            </summary>
+            <param name="dir"></param>
+        </member>
+        <member name="T:XCSJ.PluginCamera.FlyCamera">
+            <summary>
+            飞行相机类，用以实现飞行相机的相关操作
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.FlyCamera.CameraUpdate">
+            <summary>
+            相机更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.FlyCamera.CameraLateUpdate">
+            <summary>
+            相机延后更新
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.FollowCamera">
+            <summary>
+            跟随相机类，用以实现跟随相机的相关操作
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.FollowCamera.rotateWithTarget">
+            <summary>
+            与跟随目标旋转:为True时，在跟随目标绕自身轴心旋转时，相机会自动调整并保持与跟随目标视角不变；否则，相机不做调整；仅作y方向的角度补偿，不做x、z轴补偿；
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.FollowCamera.Start">
+            <summary>
+            启动
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.FollowCamera.CameraLateUpdate">
+            <summary>
+            相机延后更新
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.SmartCamera">
+            <summary>
+            智能相机:智能相机同时具有飞行相机与绕物相机的功能
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.SmartCamera.needLookAtTarget">
+            <summary>
+            需要注视目标:编辑态会做相机方向的调整；运行态会根据字母F按键按下设置为True，使用该参数后会立即设置为False；
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.SmartCamera.mustLookAtTargetIfTargetExist">
+            <summary>
+            强制注视目标(目标存在时):如果目标存在时强制注视目标（即为绕物旋转相机），无目标为飞行相机；
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.SmartCamera.CameraUpdate">
+            <summary>
+            相机更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.SmartCamera.LateUpdate">
+            <summary>
+            延后更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.SmartCamera.CameraLateUpdate">
+            <summary>
+            相机延后更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.SmartCamera.IgnoreEvent">
+            <summary>
+            忽略事件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.SmartCamera.LookAtTarget(System.Single)">
+            <summary>
+            朝向目标
+            </summary>
+            <param name="distance"></param>
+        </member>
+        <member name="T:XCSJ.PluginCamera.WalkCamera">
+            <summary>
+            行走相机类，用以实现行走相机的相关操作
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.WalkCamera.jumpFlag">
+            <summary>
+            跳跃标记:实时更新的标记；
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.WalkCamera.needJump">
+            <summary>
+            需要跳跃：为True时，触发当前相机跳跃，触发后会将本标记设置为非勾选状态；
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginCamera.WalkCamera.characterDriver">
+            <summary>
+            角色驱动器
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.WalkCamera.Awake">
+            <summary>
+            唤醒初始化
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.WalkCamera.CameraUpdate">
+            <summary>
+            相机更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.WalkCamera.CameraLateUpdate">
+            <summary>
+            相机延后更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.WalkCamera.Reset">
+            <summary>
+            重置
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.WalkCamera.Jump">
+            <summary>
+            跳跃
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.CharacterDriver">
+            <summary>
+            角色控制类
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriver.m_canControl">
+            <summary>
+            用于标识当前是否可以控制
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriver.m_useFixedUpdate">
+            <summary>
+            用于标识是否采用固定更新函数（不受帧数率影响）
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriver.m_inputMoveDirection">
+            <summary>
+            输入的移动方向
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriver.m_inputJump">
+            <summary>
+            是否输入弹跳
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriver.m_movement">
+            <summary>
+            角色移动属性参数
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriver.m_jumping">
+            <summary>
+            角色弹跳属性参数
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriver.m_movingPlatform">
+            <summary>
+            平台移动属性参数
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriver.m_sliding">
+            <summary>
+            角色滑动属性参数
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriver.m_grounded">
+            <summary>
+            是否在地面
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriver.m_groundNormal">
+            <summary>
+            地面的法向量
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriver.m_lastGroundNormal">
+            <summary>
+            之前的地面法向量
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriver.m_transform">
+            <summary>
+            当前的位置移动信息
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriver.m_controller">
+            <summary>
+            角色控制器
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.Awake">
+            <summary>
+            唤醒初始化
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.Update">
+            <summary>
+            更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.FixedUpdate">
+            <summary>
+            固定更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.CharacterUpdate">
+            <summary>
+            角色更新
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.ApplyInputVelocityChange(UnityEngine.Vector3)">
+            <summary>
+            应用输入重力修改
+            </summary>
+            <param name="velocity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.ApplyGravityAndJumping(UnityEngine.Vector3)">
+            <summary>
+            应用重力与跳跃
+            </summary>
+            <param name="velocity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.OnControllerColliderHit(UnityEngine.ControllerColliderHit)">
+            <summary>
+            当控制器碰撞器击中
+            </summary>
+            <param name="hit"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.SubtractNewPlatformVelocity">
+            <summary>
+            减去新平台速度
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.GetMaxAcceleration(System.Boolean)">
+            <summary>
+            获取最大加速度
+            </summary>
+            <param name="grounded"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.CalculateJumpVerticalSpeed(System.Single)">
+            <summary>
+            计算跳跃速度
+            </summary>
+            <param name="targetJumpHeight"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.IsJumping">
+            <summary>
+            是否跳跃中
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.IsSliding">
+            <summary>
+            是否滑行中
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.IsTouchingCeiling">
+            <summary>
+            是否触碰天花板
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.IsGrounded">
+            <summary>
+            是否接地
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.TooSteep">
+            <summary>
+            太陡峭，滑坡处理
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.GetDirection">
+            <summary>
+            获取方向
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.SetControllable(System.Boolean)">
+            <summary>
+            设置可控制的
+            </summary>
+            <param name="controllable"></param>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.MaxSpeedInDirection(UnityEngine.Vector3)">
+            <summary>
+            根据前进、侧向和后退速度将方向投影到椭圆四分之一线段上。
+            </summary>
+            <param name="desiredMovementDirection"></param>
+            <returns>函数返回结果向量的长度</returns>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriver.SetVelocity(UnityEngine.Vector3)">
+            <summary>
+            设置速度
+            </summary>
+            <param name="velocity"></param>
+        </member>
+        <member name="T:XCSJ.PluginCamera.MovementTransferOnJump">
+            <summary>
+            移动的时候弹跳枚举
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.MovementTransferOnJump.None">
+            <summary>
+            弹跳时，不被当前的移动速度所影响，即原地弹跳，不管当前是否有前进的速度。
+            The jump is not affected by velocity of floor at all
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.MovementTransferOnJump.InitTransfer">
+            <summary>
+            弹跳时，获取当前的移动速度，并逐渐减少移动速度到0。
+            Jump gets its initial velocity from the floor, then gradualy comes to a stop.
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.MovementTransferOnJump.PermaTransfer">
+            <summary>
+            弹跳时，获取当前的移动速度，并保当前移动速度直至落地为止。
+            Jump gets its initial velocity from the floor, and keeps that velocity until landing.
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.MovementTransferOnJump.PermaLocked">
+            <summary>
+            弹跳时，根据最后触摸地面的时候移动，这会使得弹跳与地面一起移动。
+            Jump is relative to the movement of the last touched floor and will move together with that floor.
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.CharacterDriverJumping">
+            <summary>
+            角色驱动的弹跳属性类
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverJumping.m_enable">
+            <summary>
+            If the charactor can jump.
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverJumping.m_baseHeight">
+            <summary>
+            How high when we jump by pressing jump action.
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverJumping.m_extraHeight">
+            <summary>
+            We add extraheight when we holding the jump button while jumping.
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverJumping.m_perpAmount">
+            <summary>
+            How much does the character jump out perpendicular to the surface on walkable surfaces?
+            0 means a fully vertical jump and 1 means fully perpendicular.
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverJumping.m_steepPerpAmount">
+            <summary>
+            How much does the character jump out perpendicular to the surface on too steep surfaces?
+            0 means a fully vertical jump and 1 means fully perpendicular.
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverJumping.m_jumping">
+            <summary>
+            Are we jumping? (Initiated with jump button and not grounded yet)
+            To see if we are just in the air (initiated by jumping OR falling) see the grounded variable.
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverJumping.m_holdingJumpButton">
+            <summary>
+            To see if the jump button is holding down.
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverJumping.m_lastStartTime">
+            <summary>
+            The m_last start time.
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverJumping.m_lastButtonDownTime">
+            <summary>
+            The last button down time.
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverJumping.m_jumpDir">
+            <summary>
+            The jump dirction
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriverJumping.#ctor">
+            <summary>
+            构造
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.CharacterDriverMove">
+            <summary>
+            角色驱动的移动属性类
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMove.m_maxForwardSpeed">
+            <summary>
+            最大的前进速度
+            The Max Forward Speed
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMove.m_maxSidewaySpeed">
+            <summary>
+            最大的侧方位移动速度
+            The max sideway speed.
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMove.m_maxBackwardSpeed">
+            <summary>
+            最大的后退速度
+            The max backward speed.
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMove.m_slopSpeedMultiplier">
+            <summary>
+            速度移动曲线
+            Curve for multiply speed base on slop
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMove.m_maxGroundAcceleration">
+            <summary>
+            地面最大的加速度值
+            The max acceleration on ground
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMove.m_maxAirAcceleration">
+            <summary>
+            空中最大的加速度值
+            The max acceleration in air
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMove.m_gravity">
+            <summary>
+            角色的体重
+            The character gravity
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMove.m_maxFallSpeed">
+            <summary>
+            最大的掉落速度
+            The max fall speed
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMove.m_collisionFlags">
+            <summary>
+            移动控制返回的上一次碰撞标示
+            The last collision flags returned from controller.Move
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMove.m_velocity">
+            <summary>
+            当前角色的速度向量值
+            The velocity of the charactor
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMove.m_frameVelocity">
+            <summary>
+            这个用于跟踪记录当前不在地面上的速度向量
+            This keeps track of our current velocity while we're not grounded
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMove.m_hitPoint">
+            <summary>
+            当前碰撞的位置
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMove.m_lastHitPoint">
+            <summary>
+            上一个碰撞的位置
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriverMove.#ctor">
+            <summary>
+            构造
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.CharacterDriverMovingPlatform">
+            <summary>
+            角色驱动的地面（平台）移动类
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMovingPlatform.m_enable">
+            <summary>
+            是否跟随移动地面一起移动
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMovingPlatform.m_movementTransfer">
+            <summary>
+            角色弹跳方式
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMovingPlatform.m_hitPlatform">
+            <summary>
+            接触地面的位置
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMovingPlatform.m_activePlatform">
+            <summary>
+            当前激活的地面
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMovingPlatform.m_activeLocalPoint">
+            <summary>
+            当前激活的本地位置
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMovingPlatform.m_activeGlobalPoint">
+            <summary>
+            当前激活的世界位置
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMovingPlatform.m_activeLocalRotation">
+            <summary>
+            当前激活的本地旋转信息
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMovingPlatform.m_activeGlobalRotation">
+            <summary>
+            当前激活的世界旋转信息
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMovingPlatform.m_lastMatrix">
+            <summary>
+            平台上一次的坐标矩阵
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMovingPlatform.m_platformVelocity">
+            <summary>
+            平台的移动速度
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverMovingPlatform.m_newPlatform">
+            <summary>
+            是否新的平台
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriverMovingPlatform.#ctor">
+            <summary>
+            构造
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginCamera.CharacterDriverSliding">
+            <summary>
+            角色驱动滑行
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverSliding.m_enable">
+            <summary>
+            启用
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverSliding.m_slidingSpeed">
+            <summary>
+            滑行速度
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverSliding.m_sidewayControl">
+            <summary>
+            侧身控制
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginCamera.CharacterDriverSliding.m_speedControl">
+            <summary>
+            速度控制
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginCamera.CharacterDriverSliding.#ctor">
+            <summary>
+            构造
+            </summary>
+        </member>
+    </members>
+</doc>

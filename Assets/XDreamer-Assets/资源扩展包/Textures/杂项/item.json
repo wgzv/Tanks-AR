@@ -1,0 +1,661 @@
+﻿
+[
+    {
+        "tags" : [
+            "铝拉丝漫反射"
+        ],
+        "source" : "",
+        "guid"   : "575d1dfc37821ba408f28ff8d5d4a520",
+        "name"   : "ALUMINIUM_Brushed_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "铝拉丝法线"
+        ],
+        "source" : "",
+        "guid"   : "33dfd297ce5e80148bf1f7565d78c38b",
+        "name"   : "ALUMINIUM_Brushed_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "黄铜漫反射"
+        ],
+        "source" : "",
+        "guid"   : "2c41068254346ca478f3ec5b93f487ed",
+        "name"   : "BRASS_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "碳纤维漫反射"
+        ],
+        "source" : "",
+        "guid"   : "3750916e1aa97da4aaad4b9f3ef3d3e9",
+        "name"   : "CARBON_FIBER_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "碳纤维法线"
+        ],
+        "source" : "",
+        "guid"   : "1b5dc176ef874344a94cd5248c7681ac",
+        "name"   : "CARBON_FIBER_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "碳纤维"
+        ],
+        "source" : "",
+        "guid"   : "caed93c025586ab4888fa4ff7fdcb64c",
+        "name"   : "CARBON_FIBER_RGH",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "停车噪音"
+        ],
+        "source" : "",
+        "guid"   : "7df6cd2fb2332af4392578e033977022",
+        "name"   : "CARPAINT_NOISE",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "混凝土"
+        ],
+        "source" : "",
+        "guid"   : "5cc995b3bce01864eace97aad3bc66f0",
+        "name"   : "CONCRETE_2_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "混凝土裸顶漫反射"
+        ],
+        "source" : "",
+        "guid"   : "f190911b274ea9c4699c7cef706a29c9",
+        "name"   : "CONCRETE_Bare_Ceiling_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "混凝土裸顶法线"
+        ],
+        "source" : "",
+        "guid"   : "08dd9af33e3cba741be5710f746a39f1",
+        "name"   : "CONCRETE_Bare_Ceiling_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "混凝土漫反射"
+        ],
+        "source" : "",
+        "guid"   : "014e5843ee1933040af59ec818c0893c",
+        "name"   : "CONCRETE_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "混凝土法线"
+        ],
+        "source" : "",
+        "guid"   : "1379122235d48104e922d0b5237b83c6",
+        "name"   : "CONCRETE_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "混凝土粗骨料漫反射"
+        ],
+        "source" : "",
+        "guid"   : "00ba7fbd409254349b6dccdb18a38126",
+        "name"   : "CONCRETE_Rough_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "混凝土粗骨料法线"
+        ],
+        "source" : "",
+        "guid"   : "205ab217c7f8d6e42861b554ebb8a095",
+        "name"   : "CONCRETE_Rough_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "混凝土粗涂漫反射"
+        ],
+        "source" : "",
+        "guid"   : "be76dc7c5a0f8f041aac1e27d38b6d99",
+        "name"   : "CONCRETE_Rough_Painted_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "混凝土粗骨料法线"
+        ],
+        "source" : "",
+        "guid"   : "7c7fb5a13ed6d0e42b806be082750540",
+        "name"   : "CONCRETE_Rough2_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "铜法线"
+        ],
+        "source" : "",
+        "guid"   : "b651176b19e9c7a478ab1fa7acccf988",
+        "name"   : "COPPER_2_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "铜漫反射"
+        ],
+        "source" : "",
+        "guid"   : "cd98c246a93496b46afef4919ad40c95",
+        "name"   : "COPPER_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "铜法线"
+        ],
+        "source" : "",
+        "guid"   : "cd39fb4045ffea7498c813c834b790c0",
+        "name"   : "COPPER_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "皮革"
+        ],
+        "source" : "",
+        "guid"   : "e86cfe04a25f1cb459258b275e7c53b8",
+        "name"   : "CUI_LEATHER_BMP",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "皮革漫反射"
+        ],
+        "source" : "",
+        "guid"   : "fadfd9b58b0d4654f82b7c5a27a5e7bb",
+        "name"   : "CUI_LEATHER_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "皮革法线"
+        ],
+        "source" : "",
+        "guid"   : "6cfa4d84733f69b47ae687426b12f7c2",
+        "name"   : "CUI_LEATHER_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "地板砖漫反射"
+        ],
+        "source" : "",
+        "guid"   : "265707ce1f713934d879d6950e2a18c8",
+        "name"   : "FLOOR_TILES_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "地板砖法线"
+        ],
+        "source" : "",
+        "guid"   : "2585a55ad34adda4cabfa1d539baf17e",
+        "name"   : "FLOOR_TILES_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "磨砂玻璃"
+        ],
+        "source" : "",
+        "guid"   : "14b71b6ca67caa24c829e05cbecf892d",
+        "name"   : "FROSTED_GLASS",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "铸铁法线"
+        ],
+        "source" : "",
+        "guid"   : "91edba07c88454a4aa9f5f6da41a4424",
+        "name"   : "IRON_CAST_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "铅划伤漫反射"
+        ],
+        "source" : "",
+        "guid"   : "d1b183debc623744e85e0f32d3d99457",
+        "name"   : "LEAD_Scratched_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属漫反射"
+        ],
+        "source" : "",
+        "guid"   : "8de363f293a61f5458caa9d3f9557505",
+        "name"   : "MET_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "噪音"
+        ],
+        "source" : "",
+        "guid"   : "92a62d8882a3a0940ac1742ca048b7b7",
+        "name"   : "MR_Noise",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "噪音"
+        ],
+        "source" : "",
+        "guid"   : "f446dd98d15e13d40af4a58ef67955fa",
+        "name"   : "NOISE",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "纸盒漫反射"
+        ],
+        "source" : "",
+        "guid"   : "3a68b8fb7265ced4186cbef5fe380a7a",
+        "name"   : "PAPERBOX_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "漫反射法线"
+        ],
+        "source" : "",
+        "guid"   : "3c96153be52d4134a8a4179d98d49a43",
+        "name"   : "PAPERBOX_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "路面漫反射"
+        ],
+        "source" : "",
+        "guid"   : "e62c10c4a668d2045899c83f10e76e2d",
+        "name"   : "PAVEMENT_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "路面法线"
+        ],
+        "source" : "",
+        "guid"   : "54fe471e9cfdce544b43beafc1e4a422",
+        "name"   : "PAVEMENT_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "灰泥"
+        ],
+        "source" : "",
+        "guid"   : "7deb63bdb991b8948bf6008739f0cc2b",
+        "name"   : "PLASTER_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "灰泥法线"
+        ],
+        "source" : "",
+        "guid"   : "9058f36d1789ec641bfcc9ee2a7b2139",
+        "name"   : "PLASTER_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "塑料噪音漫反射"
+        ],
+        "source" : "",
+        "guid"   : "aec8b12233e566644a09c686cdeeb06f",
+        "name"   : "Plastic_noise_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "橡胶地板漫反射"
+        ],
+        "source" : "",
+        "guid"   : "948604cef5d99874c810593b61be78eb",
+        "name"   : "RUBBER_Floor_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "橡胶地板法线"
+        ],
+        "source" : "",
+        "guid"   : "c66aadbc4cb26c74aa7525f71f532ee2",
+        "name"   : "RUBBER_Floor_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "毛刺"
+        ],
+        "source" : "",
+        "guid"   : "122e4f67b722f6f48ba2a0dc5a8c7b28",
+        "name"   : "RUBBER_v2_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "钢丝刷漫反射"
+        ],
+        "source" : "",
+        "guid"   : "db03d9fefa378ff479d0fc80a4738f9a",
+        "name"   : "STEEL_Brushed_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "钢丝刷法线"
+        ],
+        "source" : "",
+        "guid"   : "84ac237b9ba93b44eb3cb9b3b96b23fe",
+        "name"   : "STEEL_Brushed_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "钢铁生锈漫反射"
+        ],
+        "source" : "",
+        "guid"   : "6cb8ade33cddc5e479412db537e85eb6",
+        "name"   : "STEEL_Rusty_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "钢铁生锈"
+        ],
+        "source" : "",
+        "guid"   : "33540cde79c8dbe4faef3f1ed33d32f8",
+        "name"   : "STEEL_Rusty_MET",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "钢铁生锈法线"
+        ],
+        "source" : "",
+        "guid"   : "13a0ebabf2d9ca24d99d95dd670df8a6",
+        "name"   : "STEEL_Rusty_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "钢划伤漫反射"
+        ],
+        "source" : "",
+        "guid"   : "2f22649a1d716924c9ded8f56492dd44",
+        "name"   : "STEEL_Scratched_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "半透明塑料法线"
+        ],
+        "source" : "",
+        "guid"   : "9143479d7b007ff45af0f3a190f390dc",
+        "name"   : "TRANSLUCENT_PLASTIC_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : false,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

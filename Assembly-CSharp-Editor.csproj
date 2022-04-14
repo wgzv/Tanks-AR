@@ -1,0 +1,1325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{94A50F8F-6F98-EDFF-9504-070B2748FE21}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2018_4_36;UNITY_2018_4;UNITY_2018;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_RUNTIME_PERMISSIONS;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;XDREAMER;XDREAMER_18_OR_NEWER;XDREAMER_19_OR_NEWER;XDREAMER_20_OR_NEWER;XDREAMER_21_OR_NEWER;XDREAMER_22_OR_NEWER;XDREAMER_22;XDREAMER_22_301;XDREAMER_PROJECT_NORMAL;XDREAMER_TYPE_UnityEngine_SpatialTracking_TrackedPoseDriver;XDREAMER_ZXING;XDREAMER_EDITION_DEVELOPER;XDREAMER_EASYAR_4_0_1;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\EasyAR\Scripts\Editor\ARSessionEditor.cs" />
+     <Compile Include="Assets\EasyAR\Scripts\Editor\CloudRecognizerFrameFilterEditor.cs" />
+     <Compile Include="Assets\EasyAR\Scripts\Editor\EasyARSettingsEditor.cs" />
+     <Compile Include="Assets\EasyAR\Scripts\Editor\ImageTargetControllerEditor.cs" />
+     <Compile Include="Assets\EasyAR\Scripts\Editor\ImageTargetDataGenerator.cs" />
+     <Compile Include="Assets\EasyAR\Scripts\Editor\ImageTrackerFrameFilterEditor.cs" />
+     <Compile Include="Assets\EasyAR\Scripts\Editor\ObjectTargetControllerEditor.cs" />
+     <Compile Include="Assets\EasyAR\Scripts\Editor\ObjectTrackerFrameFilterEditor.cs" />
+     <Compile Include="Assets\EasyAR\Scripts\Editor\SettingsMenuItems.cs" />
+     <Compile Include="Assets\EasyAR\Scripts\Editor\SparseSpatialMapControllerEditor.cs" />
+     <Compile Include="Assets\EasyAR\Scripts\Editor\SparseSpatialMapWorkerFrameFilterEditor.cs" />
+     <Compile Include="Assets\EasyAR\Scripts\Editor\VideoCameraDeviceEditor.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Base\BaseCameraCoreControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Base\BaseCameraEntityControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Base\BaseCameraMainControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Base\BaseCameraManagerProviderInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Base\BaseCameraMoverInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Base\BaseCameraRotatorInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Base\BaseCameraSubComtrollerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Base\BaseCameraTargetControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Base\BaseCameraTransformerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\CameraManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Controllers\CameraControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Controllers\CameraEntityControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Controllers\CameraManagerProviderInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Controllers\CameraMoverInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Controllers\CameraOwnerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Controllers\CameraRotatorInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Controllers\CameraTargetControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\EditorCameraHelperExtension.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Legacies\CameraInspectorExtension.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Legacies\CNScripts\LockCameraForUGUIScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Legacies\CNScripts\OnGUIForCameraName.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Legacies\CNScripts\UGUIJoystickButtonForCameraScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Legacies\Inspectors\BackdropInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Legacies\Inspectors\BaseCameraInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Legacies\Inspectors\BaseCameraWithTargetInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Legacies\Inspectors\FixedAroundCameraInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Legacies\LegacyCameraManagerProviderInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Legacies\Tools\CameraItemClick.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Tools\Base\BaseCameraToolControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Tools\Base\BaseSpeedControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Tools\BaseCameraSubComtrollerToolItemClick.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Tools\CameraControllerListViewer.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\Tools\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Cameras\Editor\UI\CameraViewItemDataListInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Characters\Editor\BaseGroundDetectionInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Characters\Editor\Menu.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Characters\Editor\ObsoleteMouseLookInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\CommonUtils\CrossSectionShader\Scripts\Editor\PlaneCuttingControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\CommonUtils\CrossSectionShader\Scripts\Editor\PlaneCuttingUIControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\CommonUtils\HighlightingSystem\Scripts\Editor\HighlighterEditor.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\CommonUtils\HighlightingSystem\Scripts\Editor\HighlightingBlitterEditor.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\CommonUtils\HighlightingSystem\Scripts\Editor\HighlightingPresetEditor.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\CommonUtils\HighlightingSystem\Scripts\Editor\HighlightingRendererEditor.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\CommonUtils\HighlightingSystem\Scripts\Editor\HSEditorHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\CommonUtils\HighlightingSystem\Scripts\Editor\OutlineDataLoaderInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Outline\Editor\OutlineInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\DataBase\Editor\DBManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\DataBase\Editor\EditorDBHelperExtension.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\DataBase\Editor\Tools\DBMBInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\DataBase\Editor\Tools\DBMBItemClick.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\DataBase\Editor\Tools\NetDBMBInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\DataBase\Editor\Tools\ObjectLinkInfoInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\DataBase\Editor\Tools\WebNetDBMBInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Dataflows\Editor\Links\LinkerMBInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Attributes\AnimatorParameterPopupAttributeDrawer.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Attributes\BaseCustomDropdownEventOfEnumDrawer_TEnum.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Attributes\ComponentCollectionPopupAttributeDrawer.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Attributes\DropdownPopupAttributeDrawer.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Attributes\EnumTypePopupAttributeDrawer.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Attributes\LayerAttributeDrawer.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Attributes\LayerMaskAttributeDrawer.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Attributes\ObjectPopupAttributeDrawer.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Controllers\BaseControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Controllers\BaseMainControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Controllers\BaseSubControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\CurvePresetLibraryHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Dataflows\Base\PropertyValueDrawer.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\EditorHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\EditorObjectHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\InputSystems\EditorInputSystemHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Kernel\DefaultEditorHandler.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Kernel\DefaultUndoHandler.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Kernel\DefaultUnityObjectHandlerForEditor.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Kernel\DefaultViewHandler.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Kernel\EditorHandlerExtension.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Kernel\PreferencesExtension.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Kernel\SceneViewInfo.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Kernel\XDreamerPreferencesExtension.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Macro.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\ProjectSettings\XInputManager.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\ProjectSettings\XProjectSetting.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\ProjectSettings\XTagManager.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\PropertyDrawerHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\SceneGraphHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\SceneGraphOption.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Tools\EditorSerializedObjectHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\Tools\ToolItemClickForUnityEditorSelection.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\TypeMacroHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XGUIStyleHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\AssetDatabase_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\AssetStoreUtils.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\AssetStoreWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\CurveEditorWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\CurveLibraryType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\CurvePresetLibrary.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\CurvePresetsContentsForPopupWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\EditorGUI_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\EditorGUIUtility_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\EditorStyles_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\EditorUtility_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\EditorWindow_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\ExportPackageItem.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\GameView_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\GUIView.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\Handles_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\HandlesHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\HandleUtility_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\HostView.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\InspectorWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\LocalizationDatabase.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\MonoImporter_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\MonoScript_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\PackageManager\PackageInfo_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\PackageManager\UI\PackageManagerProjectSettings.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\PackageManager\UI\PackageManagerWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\PackageUtility.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\PlayModeView_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\PreferencesWindow_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\PresetFileLocation.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\PresetLibrary.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\PresetLibraryEditor.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\PresetLibraryEditor_CurvePresetLibrary.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\PresetLibraryLocations.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\PresetLibraryManager.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\PropertyHandler.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\PropertyHandlerCache.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\SceneHierarchyWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\SceneView_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\SceneViewOverlay_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\ScriptableObjectSaveLoadHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\ScriptableObjectSaveLoadHelper_CurvePresetLibrary.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\ScriptableSingleton_T_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\ScriptAttributeUtility.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\SearchableEditorWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\Selection_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\SerializedProperty_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\SettingsService_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\SettingsWindow_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\Undo_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\View.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\Web\JSProxyMgr.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\Web\WebScriptObject.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\WebView.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditor\WebViewV8CallbackCSharp.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditorInternal\InternalEditorUtility_LinkType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Base\XUnityEditorInternal\LogEntries.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Characters\Base\BaseCharacterCameraControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Characters\Base\BaseCharacterMoverInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Characters\Base\BaseCharacterRotatorInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Characters\Base\BaseCharacterSubControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Characters\CharacterMoverInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Characters\CharacterRotatorInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Characters\EditorCharacterHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Characters\Tools\BaseCharacterSubComtrollerToolItemClick.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Characters\Tools\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Characters\XCharacterControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\Base\AnimationScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\Base\BaseVarCollectionInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\Base\MonoBehaviourScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\Base\MonoBehaviourScriptEventLiteInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\Base\UserDefineScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\EditorScriptHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\Inputs\KeyCodeScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\Inputs\MouseButtonScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\Inputs\SingleKeyCodeScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\Inputs\TouchScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\NGUI\NGUITriggerScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\ScriptParamDrawers\StandardString_ScriptParamDrawer.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\UGUI\UGUIButtonScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\UGUI\UGUIDropdownScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\UGUI\UGUIInputFieldScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\UGUI\UGUIJoystickButtonScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\UGUI\UGUIScrollbarScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\UGUI\UGUIScrollViewScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\UGUI\UGUISliderScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\UGUI\UGUIToggleScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\UGUI\UGUITriggerScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\Windows\HierarchyKeyExtensionViewerEditorWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\CNScripts\Windows\HierarchyVarEditorWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Demos\InspectorDemoInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Demos\MenuDemoInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\EditorWindows\Web\WebWiewWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\EditorWindows\XDreamerFunctionWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\EditorWindows\XEditorWindowWithScrollView.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Experimental\ExperimentalHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Experimental\FunctionTestWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\GenericStandards\Gif\GifTexturePlayerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\GenericStandardScriptManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\Logs\Tools\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\OSInteractManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Compilers\Compiler.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Compilers\Note.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Compilers\NoteHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Compilers\XmlDocKeyProvider.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Compilers\XmlDocLoader.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Compilers\XmlDocumentationProvider.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\AnimatedImage.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\AssetEditPanel.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\AssetGridPanel.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\AssetLibWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\AssetLibWindowOption.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\AssetNaviPanel.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\AssetPanel.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\BasePanel.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\CategoryEditPanel.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\CategoryPanel.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\DeclarationPanel.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\EditorConst.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\EditorPath.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\Image.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\ImageDownloader.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\ImageDownloaderJob.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\LoadingPanel.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\Model.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\PreviewHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Libs\TopPanel.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Manuals\DataJS.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Manuals\HtmlTemplate.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Manuals\HtmlTemplateFile.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Manuals\ManualAttribute.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Manuals\ManualCategoryCreaterWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Manuals\ManualCreaterWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Manuals\ManualDataJS.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\Manuals\ManualHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\XAssetStore.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\XAssetStoreOption.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XAssets\XAssetStoreWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XDreamerEdition.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XDreamerEditor.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XDreamerExtensionOption.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Editor\XDreamerIconOption.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\MMO\Editor\EditorMMOHelperExtension.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\MMO\Editor\MMOManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\MMO\Editor\MMOMBInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\MMO\Editor\MMOOption.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\MMO\Editor\MMOPlayerCreaterInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\MMO\Editor\NetIdentityInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\MMO\Editor\NetMBInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\MMO\Editor\NetSyncs\NetAnimatorInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\MMO\Editor\NetSyncs\NetChatInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\MMO\Editor\NetSyncs\NetPlayerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\MMO\Editor\NetSyncs\NetPropertyInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\MMO\Editor\NetSyncs\NetTransformInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\MMO\Editor\States\GetNetPropertyInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\MMO\Editor\States\NetPropertyCompareInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\MMO\Editor\States\SetNetPropertyInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\MMO\Editor\Tools\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\MMO\Editor\Transitions\NetPropertyCompareInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\NetInteract\Editor\NetInteractManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\NetInteract\Editor\Tools\ClientInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\NetInteract\Editor\Tools\ServerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\NetInteract\Editor\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Editor\BaseInputSourceInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Editor\EditorPeripheralDeviceInputHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Editor\PeripheralDeviceInputManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Physicses\Editor\States\LimitCalculatorTriggerCompareInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Repairman\Editor\CNScripts\OnGUIForPartStateName.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Repairman\Editor\EditorRepairmanHelperExtension.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Repairman\Editor\Inspectors\DeviceInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Repairman\Editor\Inspectors\RepairStepInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Repairman\Editor\Inspectors\RepairStepSkipButtonClickInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Repairman\Editor\Inspectors\RepairTaskWorkInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Repairman\Editor\Inspectors\RepairTaskWorkPartViewInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Repairman\Editor\RepairmanExtentionsOption.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Repairman\Editor\RepairmanTeachingOption.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Repairman\Editor\Tools\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\Base\StatePopupAttributeDrawer.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\ComponentHeaderMenu.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\EditorSMSHelperExtension.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\SMSExtensionOption.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Base\EmptyWorkClipInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Base\GameObjectSetInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Base\ObjectSetInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Base\TimerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Base\TriggerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Base\WorkClipInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\CNScripts\LifecycleEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\CNScripts\LifecycleEventLiteInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Components\ColliderClickInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Components\ComponentSetInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\DataModel\DataRecorderInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\DataModel\DataRecoveryInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\DataModel\SingleGroupInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\DataModel\WebDataInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\Events\ActionEventTriggerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\Events\UnityEventExecutorInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\Events\UnityEventTriggerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\FieldBinds\BaseFieldBindInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\FieldBinds\ComponentParamBind.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\FieldBinds\FieldBindBatchInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\FieldBinds\FieldBindBatchOfVirtualInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\FieldBinds\FieldBindInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\FieldBinds\FieldBindOfVirtualInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\FieldBinds\MonoBehaviourParamBind.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\FieldBinds\StateComponentParamBindBatchInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\FieldBinds\StateComponentParamBindInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\FieldBinds\StateParamBindInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\FieldBinds\TransitionComponentParamBindInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\FieldBinds\TransitionParamBind.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\PropertyBinds\GetPropertyInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\PropertyBinds\PropertyCompareInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Dataflows\PropertyBinds\SetPropertyInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\AlphaInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\CameraPathInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\CNScriptTriggerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\ColorInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\ComponentEnabledRangeInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\ComponentFlashInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\FlashInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\GameObjectActiveRangeInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\GameObjectFlashInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\GameObjectPathInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\MotionInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\MoveAroundCameraTriggerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\MoveInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\PathInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\RangeHandleInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\RendererAlphaRangeInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\RendererColorRange.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\RendererEnableRangeInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\RendererFlashInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\RendererMaterialRangeInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\RendererRangeHandleInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\RendererRangeInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\RotateInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\ScaleInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Motions\TransformMotionInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\MultiMedia\AudioInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\MultiMedia\LoopAnimatorInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\MultiMedia\PathAnimationInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\MultiMedia\RangeAnimatorInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\MultiMedia\SingleAnimatorInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\MultiMedia\SubtitleInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\MultiMedia\UnityAnimatorInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\MultiMedia\VideoInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\MultiMedia\XParticleSystemInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\MultiMedia\XPlayableDirectorInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Others\PutInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Others\RangeSelectGameObjectInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Show\StepClipInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Show\StepGroupInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Show\StepInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\Show\UIPlanTreeViewEditor.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\TimeLine\CreateTimeUITool.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\TimeLine\StateWorkClipSetInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\TimeLine\TimeLinePlayContentInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\TimeLine\TimeLinePlayerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\TimeLine\WorkClipEditor.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\TimeLine\WorkClipRecorder.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\TimeLine\WorkClipSetInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\UGUI\ButtonClickInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\UGUI\Dropdowns\DropdownSwitchInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\UGUI\InputFieldEditInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\UGUI\ScrollBarControllerInspetor.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\UGUI\SliderControllerInspetor.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\UGUI\ToggleSwitchBatchInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\States\UGUI\ToggleSwitchInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\Toolkit\PathWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\Toolkit\PathWindowCore\IPathLayout.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\Toolkit\PathWindowCore\PathInfo.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\Toolkit\PathWindowCore\PathInfoManager.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\Toolkit\PathWindowCore\ReversePathLayout.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\Toolkit\PathWindowCore\TransformData.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\Toolkit\PathWindowOption.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\Transitions\Base\StateComponentFinishSkipInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\Transitions\Base\TriggerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\Transitions\CNScripts\ButtonClickSkipInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\Transitions\CNScripts\LifecycleEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\Transitions\CNScripts\LifecycleEventLiteInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\Transitions\CNScripts\VariableCompareSkipInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\SMS\Editor\Transitions\Dataflows\Events\ActionEventTriggerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\StereoView\Editor\StereoViewManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\StereoView\Editor\Tools\BaseScreenInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\StereoView\Editor\Tools\ScreenAnchorLinkInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\StereoView\Editor\Tools\ScreenGroupInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\StereoView\Editor\Tools\StereoCameraInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\StereoView\Editor\Tools\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\StereoView\Editor\Tools\VirtualScreenInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Timelines\Editor\CNScripts\VideoScriptEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Timelines\Editor\TimelineManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Timelines\Editor\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\AI\Autos\AutoEnableComponentByRuntimePlatformInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\AI\Autos\AutoEnableComponentInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\AI\Autos\AutoWaitInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Base\ToolMBForUnityEditorSelectionInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Base\ToolMBForUnityEditorSelectionItemClick.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Base\ToolMBInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Base\TriggerEventMBInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Cameras\CameraBackdropInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\ComponentToolItemClick.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\EditorToolsHelperExtension.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\ExplodedViews\MBs\ExplodedViewInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\ExplodedViews\States\ExplodedViewInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Inspectors\GizmoRendererInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Inspectors\LineNoteInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Inspectors\LineStyleInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Inspectors\SelectionDragToolInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Inspectors\TipInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Inspectors\UVMoveMotionInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Notes\Dimensionings\AngleDimensioningInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Notes\Dimensionings\DimensioningInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Notes\Dimensionings\DistanceDimensioningInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Pipelines\PipelineAssetEditorHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\SelectionUtils\BoundsProviderInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\SelectionUtils\SelectionBoundsRendererInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\SelectionUtils\SelectionModifyInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\AliasWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\BatchNamingWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\BuildAssetBundleWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\Base\BaseCodeCreater.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\Base\CodeLine.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\Base\CodeWirter.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\Base\EnumPropertyValueCodeCreater.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\Base\PropertyValueCodeCreater.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\CodeCreaterHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\CodeCreaterWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\CodePreviewWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\ECodeCreaterType.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\States\BaseLifecycleExecutorCodeCreater.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\States\BasePropertyCodeCreater.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\States\BasePropertyValueData.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\States\BaseStateComponentCodeCreater.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\States\FieldInfoData.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\States\MemberInfoData.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\States\MethodInfoData.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\States\ParameterInfoData.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\States\PropertyGetCodeCreater.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\States\PropertyHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\States\PropertyInfoData.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\CodeCreaters\States\PropertySetCodeCreater.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\EditorGUILayoutViewerWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\EditorStyleViewerWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\EditorToolkitHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\FramesSavingTool.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\LayoutGameObjectWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\Layouts\Circle.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\Layouts\CircleWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\Layouts\GridLayoutWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\Layouts\ILayoutWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\Layouts\LayoutHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\Layouts\LayoutOption.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\Layouts\RectTransformUndo.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\Layouts\TransformUndo.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\LayoutUGUIWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\ModelSizeViewerWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\PackageExportWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\Packages\AssetItem.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\Packages\ExportFile.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\Packages\PackageHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\RichTextEditorWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\RichTexts\Content.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\RichTexts\EditorRichText.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\RichTexts\Element.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\RichTexts\RichTextOption.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\RichTexts\RichTextTool.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\SoftwarePublishCheckerWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\ToolObjectViewers\ToolObjectViewerEditor.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\ToolObjectViewers\ToolObjectViewerEditorAttribute.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\ToolObjectViewerWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\Tools\Editor\Windows\UndoWindow.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Editor\GearBoxInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Editor\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Editor\VehicleDriveControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Editor\VehicleDriveMangerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Editor\VehiclePhysicConfigInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Editor\WheelDriverBinderInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Editor\WheelDriverInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XBox\Editor\EditorXBoxHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XBox\Editor\Tools\InteractIOByXBoxInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XBox\Editor\Tools\TransformByXBoxInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XBox\Editor\XBoxManagerAssetGenerator.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XBox\Editor\XBoxManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Base\RootWindowInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Base\SubWindowInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Base\UGUIToolMBInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\EditorXGUIHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Styles\Base\BaseStyleElementInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Styles\Base\StyleElementCollectionInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Styles\Base\XStyleInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Styles\Elements\ImageStyleElementInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Styles\Tools\StyleConfigerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Styles\Tools\StyleLinkerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Styles\XStyleEditor.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Styles\XStyleFile.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Styles\XStyleFileHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Views\Dropdowns\CustomDropdownEventDrawer.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Views\Dropdowns\CustomDropdownEventOfEnumDrawer.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Views\Dropdowns\DropdownEventTriggerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Views\Dropdowns\DropdownMBInspecotr.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Views\Texts\DateTimeTextInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Windows\UITreeViewEditor.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Windows\Weathers\WeatherDataImageInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Windows\Weathers\WeatherDataTextInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\Windows\Weathers\WeatherInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\XGUIEditor.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\XGUIManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XGUI\Editor\XGUIOption.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XRSpaceSolution\Editor\EditorXRSpaceSolutionHelper.cs" />
+     <Compile Include="Assets\XDreamer\Scripts\XRSpaceSolution\Editor\Tools\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\ART\Editor\ARTManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\ART\Editor\EditorARTHelper.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\ART\Editor\Tools\ARTStreamClientInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\ART\Editor\Tools\BaseTransformByARTInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\ART\Editor\Tools\CameraTransformByARTInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\ART\Editor\Tools\InteractIOByARTInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\ART\Editor\Tools\PoseIOByARTInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\ART\Editor\Tools\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\ART\Editor\Tools\TransformByARTFlystickInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\AssetsExporter\Scripts\Editor\FBXExporter5_0\FBXExporter.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\AssetsExporter\Scripts\Editor\FBXExporter5_0\FBXMaterialGetter.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\AssetsExporter\Scripts\Editor\FBXExporter5_0\FBXMeshGetter.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\AssetsExporter\Scripts\Editor\FBXExporter5_0\FBXWriter.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\AssetsExporter\Scripts\Editor\FBXExporterWindow.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\AssetsExporter\Scripts\Editor\OBJExporterWindow.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\EasyAR\Scripts\Editor\EasyARManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\EasyAR\Scripts\Editor\ImageTargetMBInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\EasyAR\Scripts\Editor\ScriptEasyAREventInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\EasyAR\Scripts\Editor\ScriptImageTargetEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\HoloLens\Scripts\Editor\HololensManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\HTCVive\Editor\HTCViveManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\HTCVive\Editor\Tools\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\OptiTrack\Editor\EditorOptiTrackHelper.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\OptiTrack\Editor\OptiTrackManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\OptiTrack\Editor\Tools\BaseTransformByOptiTrackInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\OptiTrack\Editor\Tools\CameraTransformByOptiTrackInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\OptiTrack\Editor\Tools\PoseIOByOptiTrackInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\OptiTrack\Editor\Tools\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\SamsungWMR\Editor\SamsungWMRManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\SamsungWMR\Editor\Tools\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\Sqlite3\Scripts\Editor\SqliteMBInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\VoxelTracker\Editor\Tools\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\VoxelTracker\Editor\VoxelTrackerManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Editor\Base\Tools\BaseTrackerInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Editor\Images\Tools\ImageTrackerInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Editor\Tools\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Editor\XARFoundationManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Editor\EditorXRITHelper.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Editor\States\Interactables\InteractableEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Editor\States\Interactors\InteractorEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Editor\States\Locomotions\LocomotionEventInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Editor\Tools\Controllers\AnalogControllerInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Editor\Tools\Controllers\BaseAnalogControllerIOInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Editor\Tools\LocomotionProviders\AnalogLocomotionProviderInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Editor\Tools\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Editor\Tools\XROriginOwnerInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Editor\XXRInteractionToolkitManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\ZVR\Editor\EditorZVRHelper.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\ZVR\Editor\Tools\BaseTransformByZVRInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\ZVR\Editor\Tools\CameraTransformByZVRInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\ZVR\Editor\Tools\PoseIOByZVRInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\ZVR\Editor\Tools\ToolsMenu.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\ZVR\Editor\ZVRManagerInspector.cs" />
+     <Compile Include="Assets\XDreamer\ThirdParty\ZXing\Scripts\Editor\QRCodeViewerWindow.cs" />
+     <None Include="Assets\XDreamer\Editor\XCSJ.EditorTools.xml" />
+     <None Include="Assets\XDreamer\Editor\XCSJ.EditorDataBase.xml" />
+     <None Include="Assets\XDreamer\Editor\XCSJ.EditorSMS.xml" />
+     <None Include="Assets\XDreamer\Editor\XCSJ.EditorCommonUtils.xml" />
+     <None Include="Assets\XDreamer\Editor\XCSJ.EditorRepairman.xml" />
+     <None Include="Assets\XDreamer\ThirdParty\AssetsExporter\Scripts\Editor\FBXExporter5_0\readme.txt" />
+     <None Include="Assets\XDreamer\Editor\XCSJ.EditorCamera.xml" />
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>D:/Unity Project/TanksAR/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>D:/Unity Project/TanksAR/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>D:/Unity Project/TanksAR/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>D:/Unity Project/TanksAR/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.CollabProxy.Editor">
+ <HintPath>D:/Unity Project/TanksAR/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>D:/Unity Project/TanksAR/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.DataPrivacy">
+ <HintPath>D:/Unity Project/TanksAR/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.BaselibModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.FileSystemHttpModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTrackingModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StyleSheetsModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextCoreModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TimelineModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityTestProtocolModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VFXModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Locator">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Timeline">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="Vuforia.UnityExtensions.Editor">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Vuforia.UnityExtensions">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GoogleAudioSpatializer">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>D:/Unity Project/TanksAR/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="XCSJ.EditorCamera">
+ <HintPath>D:/Unity Project/TanksAR/Assets/XDreamer/Editor/XCSJ.EditorCamera.dll</HintPath>
+ </Reference>
+ <Reference Include="XCSJ.EditorCommonUtils">
+ <HintPath>D:/Unity Project/TanksAR/Assets/XDreamer/Editor/XCSJ.EditorCommonUtils.dll</HintPath>
+ </Reference>
+ <Reference Include="XCSJ.EditorDataBase">
+ <HintPath>D:/Unity Project/TanksAR/Assets/XDreamer/Editor/XCSJ.EditorDataBase.dll</HintPath>
+ </Reference>
+ <Reference Include="XCSJ.EditorRepairman">
+ <HintPath>D:/Unity Project/TanksAR/Assets/XDreamer/Editor/XCSJ.EditorRepairman.dll</HintPath>
+ </Reference>
+ <Reference Include="XCSJ.EditorSMS">
+ <HintPath>D:/Unity Project/TanksAR/Assets/XDreamer/Editor/XCSJ.EditorSMS.dll</HintPath>
+ </Reference>
+ <Reference Include="XCSJ.EditorTools">
+ <HintPath>D:/Unity Project/TanksAR/Assets/XDreamer/Editor/XCSJ.EditorTools.dll</HintPath>
+ </Reference>
+ <Reference Include="HOTween">
+ <HintPath>D:/Unity Project/TanksAR/Assets/XDreamer/Plugins/HOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="JsonFx.Json">
+ <HintPath>D:/Unity Project/TanksAR/Assets/XDreamer/Plugins/JsonFx.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="XCSJ">
+ <HintPath>D:/Unity Project/TanksAR/Assets/XDreamer/Plugins/XCSJ.dll</HintPath>
+ </Reference>
+ <Reference Include="XCSJ.PluginCamera">
+ <HintPath>D:/Unity Project/TanksAR/Assets/XDreamer/Plugins/XCSJ.PluginCamera.dll</HintPath>
+ </Reference>
+ <Reference Include="XCSJ.PluginCommonUtils">
+ <HintPath>D:/Unity Project/TanksAR/Assets/XDreamer/Plugins/XCSJ.PluginCommonUtils.dll</HintPath>
+ </Reference>
+ <Reference Include="XCSJ.PluginDataBase">
+ <HintPath>D:/Unity Project/TanksAR/Assets/XDreamer/Plugins/XCSJ.PluginDataBase.dll</HintPath>
+ </Reference>
+ <Reference Include="XCSJ.PluginMMO">
+ <HintPath>D:/Unity Project/TanksAR/Assets/XDreamer/Plugins/XCSJ.PluginMMO.dll</HintPath>
+ </Reference>
+ <Reference Include="XCSJ.PluginRepairman">
+ <HintPath>D:/Unity Project/TanksAR/Assets/XDreamer/Plugins/XCSJ.PluginRepairman.dll</HintPath>
+ </Reference>
+ <Reference Include="XCSJ.PluginSMS">
+ <HintPath>D:/Unity Project/TanksAR/Assets/XDreamer/Plugins/XCSJ.PluginSMS.dll</HintPath>
+ </Reference>
+ <Reference Include="XCSJ.PluginTools">
+ <HintPath>D:/Unity Project/TanksAR/Assets/XDreamer/Plugins/XCSJ.PluginTools.dll</HintPath>
+ </Reference>
+ <Reference Include="zxing.unity">
+ <HintPath>D:/Unity Project/TanksAR/Assets/XDreamer/ThirdParty/ZXing/Plugins/zxing.unity.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>D:/Unity Project/TanksAR/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Editor">
+ <HintPath>D:/Unity Project/TanksAR/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.StandardEvents">
+ <HintPath>D:/Unity Project/TanksAR/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Tracker">
+ <HintPath>D:/Unity Project/TanksAR/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics.Vectors">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.CSharp">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Win32.Primitives">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="netstandard">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+ </Reference>
+ <Reference Include="System.AppContext">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Concurrent">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.NonGeneric">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Specialized">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Annotations">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.EventBasedAsync">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Primitives">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.TypeConverter">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Console">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data.Common">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Contracts">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Debug">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.FileVersionInfo">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Process">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.StackTrace">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TextWriterTraceListener">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tools">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TraceSource">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing.Primitives">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Dynamic.Runtime">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Calendars">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Extensions">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.ZipFile">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.DriveInfo">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Primitives">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Watcher">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.IsolatedStorage">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.MemoryMappedFiles">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Pipes">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.UnmanagedMemoryStream">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Expressions">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Parallel">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Queryable">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http.Rtc">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NameResolution">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NetworkInformation">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Ping">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Primitives">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Requests">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Security">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Sockets">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebHeaderCollection">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets.Client">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ObjectModel">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.ILGeneration">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.Lightweight">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Extensions">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Primitives">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Reader">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.ResourceManager">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Writer">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.VisualC">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Extensions">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Handles">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Numerics">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Formatters">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Json">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Primitives">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Xml">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Claims">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Algorithms">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Csp">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Encoding">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Primitives">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.X509Certificates">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Principal">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.SecureString">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Duplex">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Http">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.NetTcp">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Primitives">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Security">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding.Extensions">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.RegularExpressions">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Overlapped">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Parallel">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Thread">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.ThreadPool">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Timer">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ValueTuple">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.ReaderWriter">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XDocument">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlDocument">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlSerializer">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath.XDocument">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript.Lang">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll</HintPath>
+ </Reference>
+ <Reference Include="Boo.Lang">
+ <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{267483F4-BDF7-5125-AF30-C452F11B6A38}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

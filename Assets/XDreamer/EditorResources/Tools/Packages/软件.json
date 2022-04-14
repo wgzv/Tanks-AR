@@ -1,0 +1,15 @@
+﻿
+{
+    "exportList" : [
+        "Assets/Plugins",
+        "Assets/StreamingAssets/XDreamer",
+        "Assets/XDreamer",
+        "Assets/XDreamer-Assets/error.html",
+        "Assets/XDreamer-Assets/index.html",
+        "Assets/XDreamer-Assets/item.json",
+        "Assets/XDreamer-Assets/offline.html",
+        "Assets/XDreamer-Assets/基础"
+    ],
+    "ignoreList" : [
+    ]
+}

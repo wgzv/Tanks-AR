@@ -1,0 +1,59 @@
+﻿
+[
+    {
+        "tags" : [
+            "木头"
+        ],
+        "source" : "",
+        "guid"   : "231fcbda124636442b8b95d5162d85f1",
+        "name"   : "WOOD",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "木头木板横向"
+        ],
+        "source" : "",
+        "guid"   : "08d1adf3a3899ab4aa4e71ab6a79738d",
+        "name"   : "WOOD_Planks_Horizontal",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "木头木板纵向"
+        ],
+        "source" : "",
+        "guid"   : "e0e2205f4e5811a42b4cc94e5164eb27",
+        "name"   : "WOOD_Planks_Vertical",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "木头胶合板"
+        ],
+        "source" : "",
+        "guid"   : "c96d8183a144d094a9250b94da0b69fe",
+        "name"   : "WOOD_Plywood",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

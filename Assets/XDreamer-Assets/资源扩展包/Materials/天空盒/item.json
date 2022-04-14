@@ -1,0 +1,59 @@
+﻿
+[
+    {
+        "tags" : [
+            "月夜"
+        ],
+        "source" : "AllSky",
+        "guid"   : "ada13047f5ca35948af527fa65f6dcae",
+        "name"   : "AllSky_Night_MoonBurst Equirect",
+        "tip"    : "",
+        "description" : "月夜",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "阴天"
+        ],
+        "source" : "AllSky",
+        "guid"   : "0eccae1e09230524c8639acc449e9cd4",
+        "name"   : "AllSky_Overcast4_Low",
+        "tip"    : "",
+        "description" : "阴天",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "晴天"
+        ],
+        "source" : "AllSky",
+        "guid"   : "91e0fac4e8449784585ad1cec56283c6",
+        "name"   : "Cold Sunset Equirect",
+        "tip"    : "",
+        "description" : "晴天",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "晴天"
+        ],
+        "source" : "AllSky",
+        "guid"   : "ff2a3ba79b3e31e4fb8f3737cff62ce7",
+        "name"   : "Epic_BlueSunset_EquiRect_flat",
+        "tip"    : "",
+        "description" : "晴天",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

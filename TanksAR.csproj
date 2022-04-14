@@ -1,0 +1,2030 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F312AFD7-F94D-E162-1857-F1B2BF096BE0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>2018.4.36f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>6</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2018_4_36;UNITY_2018_4;UNITY_2018;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_RUNTIME_PERMISSIONS;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;XDREAMER;XDREAMER_18_OR_NEWER;XDREAMER_19_OR_NEWER;XDREAMER_20_OR_NEWER;XDREAMER_21_OR_NEWER;XDREAMER_22_OR_NEWER;XDREAMER_22;XDREAMER_22_301;XDREAMER_PROJECT_NORMAL;XDREAMER_TYPE_UnityEngine_SpatialTracking_TrackedPoseDriver;XDREAMER_ZXING;XDREAMER_EDITION_DEVELOPER;XDREAMER_EASYAR_4_0_1;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2018_4_36;UNITY_2018_4;UNITY_2018;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_RUNTIME_PERMISSIONS;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;XDREAMER;XDREAMER_18_OR_NEWER;XDREAMER_19_OR_NEWER;XDREAMER_20_OR_NEWER;XDREAMER_21_OR_NEWER;XDREAMER_22_OR_NEWER;XDREAMER_22;XDREAMER_22_301;XDREAMER_PROJECT_NORMAL;XDREAMER_TYPE_UnityEngine_SpatialTracking_TrackedPoseDriver;XDREAMER_ZXING;XDREAMER_EDITION_DEVELOPER;XDREAMER_EASYAR_4_0_1;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Managed/UnityEngine/UnityEngine">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AIModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ARModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AccessibilityModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AnimationModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AssetBundleModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AudioModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.BaselibModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ClothModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.CoreModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.CrashReportingModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.DirectorModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.FileSystemHttpModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.GameCenterModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.GridModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.HotReloadModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.IMGUIModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ImageConversionModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.InputModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.JSONSerializeModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.LocalizationModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ParticleSystemModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.PerformanceReportingModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.PhysicsModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.Physics2DModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ProfilerModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ScreenCaptureModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SharedInternalsModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SpatialTrackingModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SpriteMaskModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SpriteShapeModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.StreamingModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.StyleSheetsModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SubstanceModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TLSModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TerrainModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TextCoreModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TextRenderingModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TilemapModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TimelineModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UIModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UIElementsModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UNETModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UmbraModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityConnectModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VFXModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VRModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VehiclesModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VideoModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.WindModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.XRModule">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEditor">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/Unity.Locator">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>D:/Program Files/Unity/2018.4.36f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="HOTween">
+      <HintPath>Assets/XDreamer/Plugins/HOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="JsonFx.Json">
+      <HintPath>Assets/XDreamer/Plugins/JsonFx.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="XCSJ">
+      <HintPath>Assets/XDreamer/Plugins/XCSJ.dll</HintPath>
+    </Reference>
+    <Reference Include="XCSJ.PluginCamera">
+      <HintPath>Assets/XDreamer/Plugins/XCSJ.PluginCamera.dll</HintPath>
+    </Reference>
+    <Reference Include="XCSJ.PluginCommonUtils">
+      <HintPath>Assets/XDreamer/Plugins/XCSJ.PluginCommonUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="XCSJ.PluginDataBase">
+      <HintPath>Assets/XDreamer/Plugins/XCSJ.PluginDataBase.dll</HintPath>
+    </Reference>
+    <Reference Include="XCSJ.PluginMMO">
+      <HintPath>Assets/XDreamer/Plugins/XCSJ.PluginMMO.dll</HintPath>
+    </Reference>
+    <Reference Include="XCSJ.PluginRepairman">
+      <HintPath>Assets/XDreamer/Plugins/XCSJ.PluginRepairman.dll</HintPath>
+    </Reference>
+    <Reference Include="XCSJ.PluginSMS">
+      <HintPath>Assets/XDreamer/Plugins/XCSJ.PluginSMS.dll</HintPath>
+    </Reference>
+    <Reference Include="XCSJ.PluginTools">
+      <HintPath>Assets/XDreamer/Plugins/XCSJ.PluginTools.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.unity">
+      <HintPath>Assets/XDreamer/ThirdParty/ZXing/Plugins/zxing.unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>D:/Unity Project/TanksAR/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>D:/Unity Project/TanksAR/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>D:/Unity Project/TanksAR/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>D:\Program Files\Unity\2018.4.36f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityEngine.Purchasing.csproj">
+      <Project>{D8B9AA28-EA8D-8295-F9E6-B87D042DE8DA}</Project>
+      <Name>UnityEngine.Purchasing</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.Purchasing.csproj">
+      <Project>{181F36C2-415F-0EC2-497B-E3A536E04D1A}</Project>
+      <Name>UnityEditor.Purchasing</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{3A848AB7-9891-EDDA-D555-BF184C2F81F4}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PackageManagerUI.Editor.csproj">
+      <Project>{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}</Project>
+      <Name>Unity.PackageManagerUI.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
+      <Project>{C12CEEC6-100C-58A2-DE36-314E4DE5E40B}</Project>
+      <Name>Unity.CollabProxy.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{07A21C90-D344-AE1A-8456-9910C203B41A}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Analytics.DataPrivacy.csproj">
+      <Project>{D6E266C6-3D1F-28C8-9FEB-2A01E44DBF77}</Project>
+      <Name>Unity.Analytics.DataPrivacy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\EasyAR\Scripts\ARAssembly.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\ARSession.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\CameraImageRenderer.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\CameraRenderEvent.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\CameraSource.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\CloudRecognizerFrameFilter.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\csapi.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\DenseSpatialMapBlockController.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\DenseSpatialMapBuilderFrameFilter.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\DenseSpatialMapDepthRenderer.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\EasyARController.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\EasyARVersion.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\FrameFilter.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\FrameSource.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\ImageTargetController.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\ImageTrackerFrameFilter.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\ObjectTargetController.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\ObjectTrackerFrameFilter.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\RenderCameraController.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\Resource\CameraImageMaterial.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\Resource\EasyARSettings.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\Resource\EasyARShaders.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\Resource\RenderCameraParameters.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\SparseSpatialMapController.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\SparseSpatialMapWorkerFrameFilter.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\SurfaceTrackerFrameFilter.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\TargetController.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\Utility\APIExtend.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\Utility\Display.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\Utility\FileUtil.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\Utility\GUIPopup.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\Utility\ThreadWorker.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\Utility\TransformUtil.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\VideoCameraDevice.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\VideoRecorder.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\VIOCameraDeviceUnion.cs" />
+    <Compile Include="Assets\EasyAR\Scripts\WorldRootController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Base\BaseCameraCoreController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Base\BaseCameraEntityController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Base\BaseCameraMainController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Base\BaseCameraMover.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Base\BaseCameraRotator.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Base\BaseCameraSubController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Base\BaseCameraTargetController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Base\BaseCameraTransformer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Base\CameraControllerEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Base\ICameraMainController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Base\ICameraOwner.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\CameraHelperExtension.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\CNScripts\ECameraScriptID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Controllers\CameraController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Controllers\CameraEntityController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Controllers\CameraManagerExtension.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Controllers\CameraManagerProvider.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Controllers\CameraMover.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Controllers\CameraOwner.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Controllers\CameraRotator.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Controllers\CameraTargetController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Controllers\CameraTransformer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Kernel\DefaultCameraHandler.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Legacies\Cameras\MoveAroundCamera.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Legacies\CNScripts\ForCameraName.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Legacies\CNScripts\LockCameraForUGUIScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Legacies\CNScripts\UGUIJoystickButtonForCameraScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Legacies\LegacyCameraManagerExtension.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Legacies\LegacyCameraManagerProvider.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Legacies\Tools\CameraTargetModifyBySelection.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\States\CameraControllerPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\States\CameraControllerSwitchEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\States\SwitchCameraController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Base\BaseCameraLimiter.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Base\BaseCameraMoveController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Base\BaseCameraRotateController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Base\BaseCameraSwitchTweener.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Base\BaseCameraToolController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Base\BaseSpeedController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Base\BaseSpeedDampingController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Base\BaseSpeedRegulator.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Base\Position.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\ActiveGameObjectByEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\CameraAdjustFOVByTarget.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\CameraAngleLimiter.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\CameraDistanceLimiter.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\CameraLookAtLimiter.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\CameraMoveByInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\CameraMoveByKeyCode.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\CameraMoveByMouse.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\CameraMoveByTarget.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\CameraMoveByTouch.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\CameraMoveToTargetForward.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\CameraPositionLimiter.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\CameraRotateByInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\CameraRotateByKeyCode.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\CameraRotateByTarget.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\CameraRotateByTouch.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\CameraSwitchTweener.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\CameraTargetRaycaster.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\EnableComponentByEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Controllers\SpeedRegulatorByKeyCode.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Tweens\BaseTweener.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Tweens\DefaultTweener.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\Tools\Tweens\NoneTweener.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\UI\CameraViewItemData.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\UI\CameraViewItemDataList.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Cameras\Plugins\UI\RenderTextureCamera.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Characters\Plugins\BaseAgentController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Characters\Plugins\BaseCharacterController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Characters\Plugins\BaseFirstPersonController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Characters\Plugins\BaseGroundDetection.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Characters\Plugins\CharacterMovement.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Characters\Plugins\CustomAgentController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Characters\Plugins\CustomCharacterController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Characters\Plugins\CustomFirstPersonController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Characters\Plugins\ECustomParameter.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Characters\Plugins\GroundDetection.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Characters\Plugins\GroundHit.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Characters\Plugins\ObsoleteMouseLook.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Characters\Plugins\OrientModelToGround.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Characters\Plugins\RootMotionController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\CrossSectionShader\Scripts\Plugins\PlaneCuttingController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\CrossSectionShader\Scripts\Plugins\PlaneCuttingInfo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\CrossSectionShader\Scripts\Plugins\PlaneCuttingUIController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\CrossSectionShader\Scripts\Plugins\ShaderHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\CrossSectionShader\Scripts\Plugins\ThreePlanesCuttingController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\HighlightingSystem\Scripts\Plugins\Highlighter.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\HighlightingSystem\Scripts\Plugins\HighlighterBlocker.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\HighlightingSystem\Scripts\Plugins\HighlightingBlitter.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\HighlightingSystem\Scripts\Plugins\HighlightingRenderer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\HighlightingSystem\Scripts\Plugins\Internal\EndOfFrame.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\HighlightingSystem\Scripts\Plugins\Internal\HighlighterCore.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\HighlightingSystem\Scripts\Plugins\Internal\HighlighterRenderer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\HighlightingSystem\Scripts\Plugins\Internal\HighlightingBase.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\HighlightingSystem\Scripts\Plugins\Internal\HighlightingPreset.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\HighlightingSystem\Scripts\Plugins\Internal\MaterialExtensions.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\HighlightingSystem\Scripts\Plugins\Internal\ShaderPropertyID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\HighlightingSystem\Scripts\Plugins\OutlineDataLoader.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\iTween\Plugins\EventParamMappings.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\iTween\Plugins\iTween.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\iTween\Plugins\iTweenEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\iTween\Plugins\iTweenPath.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\iTween\Plugins\Vector3OrTransform.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\iTween\Plugins\Vector3OrTransformArray.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Outline\Plugins\Outline.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Outline\Plugins\OutlineFeature.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\CommonUtils\Outline\Plugins\OutlinePass.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\DataBase\Plugins\Base\ConditionQueryData.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\DataBase\Plugins\CNScripts\EDBScriptID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\DataBase\Plugins\DBHelperExtension.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\DataBase\Plugins\Kernel\DefaultDBHandler.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\DataBase\Plugins\States\DBListWindowEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\DataBase\Plugins\States\ExecuteSQL.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\DataBase\Plugins\Tools\BaseNetDBMB.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\DataBase\Plugins\Tools\DBAliasData.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\DataBase\Plugins\Tools\DBListWindowByIMGUI.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\DataBase\Plugins\Tools\NetDBMB.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\DataBase\Plugins\Tools\ObjectLinkInfo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\DataBase\Plugins\Tools\ResultSetWindowByIMGUI.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\DataBase\Plugins\Tools\WebNetDBMB.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Binders\CollectionDataBinder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Binders\PropertyChangeBinder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Binders\XUnityEngine\XRenderSettings\RenderSettings_Binder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Binders\XUnityEngine\XUI\XButton\Button_onClick_Binder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Binders\XUnityEngine\XUI\XDropdown\Dropdown_value_Binder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Binders\XUnityEngine\XUI\XGraphic\Graphic_color_Binder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Binders\XUnityEngine\XUI\XImage\Image_fillAmount_Binder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Binders\XUnityEngine\XUI\XImage\Image_sprite_Binder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Binders\XUnityEngine\XUI\XInputField\InputField_text_Binder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Binders\XUnityEngine\XUI\XRawImage\RawImage_texture_Binder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Binders\XUnityEngine\XUI\XScrollbar\Scrollbar_value_Binder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Binders\XUnityEngine\XUI\XSelectable\Selectable_interactable_Binder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Binders\XUnityEngine\XUI\XSlider\Slider_value_Binder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Binders\XUnityEngine\XUI\XText\Text_text_Binder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Binders\XUnityEngine\XUI\XToggle\Toggle_isOn_Binder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Converters\StringToColor.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Converters\TextFormat.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\DataflowManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\IDRange.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Links\DataLinker.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Links\LinkerMB.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Models\CollectionDataAdapter.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Models\DataRegister.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Models\ObservableMB.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Models\ObservableObject.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Dataflows\Plugins\Models\ObservableSO.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\EMMOScriptID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\Kernel\DefaultMMOHandler.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\MMOClient.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\MMOHelperExtension.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\MMOManagerHUD.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\MMOPlayerCreater.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\MMOPlayerCreaterHUD.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\NetPlayerStartPosition.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\NetSyncs\NetAnimator.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\NetSyncs\NetChat.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\NetSyncs\NetChatHUD.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\NetSyncs\NetColor.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\NetSyncs\NetGameObjectActive.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\NetSyncs\NetMaterial.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\NetSyncs\NetPlayer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\NetSyncs\NetPlayerHUD.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\NetSyncs\NetProperty.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\NetSyncs\NetPropertyHUD.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\NetSyncs\NetPropertyNameAttribute.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\NetSyncs\NetTransform.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\NetSyncs\NetUGUI.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\NetSyncs\NetVariable.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\NetSyncs\VoiceChat.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\States\AutoConnectNet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\States\GetNetProperty.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\States\NetIdentityEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\States\NetPropertyCompare.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\States\NetStateChanged.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\States\NetStateCompare.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\States\SetNetProperty.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\States\SyncDataChanged.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\States\SyncVarChanged.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\Tests\Test.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\Transitions\NetPropertyCompare.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\Transitions\NetStateChangedSkip.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\Transitions\NetStateCompare.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\XGUI\NetChats\ChatInfoItem.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\XGUI\NetChats\ChatInfoItemEffect.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\XGUI\NetChats\ChatInfoItemList.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\XGUI\NetChats\ChatSender.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\XGUI\NetChats\NetChatWindow.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\XGUI\NetChats\UserInfoItem.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\XGUI\NetChats\UserInfoItemEffect.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\XGUI\NetChats\UserInfoList.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\MMO\Plugins\XGUI\NetInfoText.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\Base\ClientEntity.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\Base\ClientVirtual.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\Base\NetAnswer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\Base\NetMsg.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\Base\NetQuestion.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\Base\ServerEntity.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\CNScripts\IDRange.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\CNScripts\NetCNScript.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\NetInteractHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\NetInteractManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\States\ClientEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\States\ClientReceiveMsg.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\States\ClientSendMsg.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\States\ClientVirualPropertyGet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\States\ClientVirualPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\States\NetClientSendMsg.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\States\ServerEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\States\ServerReceiveMsg.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\States\ServerSendMsg.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\Tools\Client.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\Tools\ClientAnalogInputProcessor.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\Tools\ClientCNScriptProcessor.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\Tools\NetAnalogInputUpdater.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\Tools\Server.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\Tools\ServerAnalogInputProcessor.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\Tools\ServerCNScriptProcessor.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\UI\ClientConfigView.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\NetInteract\Plugins\UI\ServerConfigView.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\BaseInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\BaseInputSource.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\Container.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\EScriptID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\IInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\InputData.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\LineNodeHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\Modules\BaseInputModule.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\Modules\BasePointerEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\Modules\PointerInputModule.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\Modules\StandaloneInputModule.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\Modules\TouchInputModule.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\PeripheralDeviceInputHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\PeripheralDeviceInputManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\Raycasters\BaseRaycaster.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\Raycasters\BaseRayRenderer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\Raycasters\GraphicRaycaster.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\Raycasters\Physics2DRaycaster.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\Raycasters\PhysicsRaycaster.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\Raycasters\Raycaster.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\Standalones\StandaloneInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\Standalones\StandaloneInputSource.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\PeripheralDevice\Plugins\States\InputDeviceChangeEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\Base\ForceModeInfo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\Base\ForceTarget.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\Base\Limits\ConfigurableJointLimiter.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\Base\Limits\HingeJointLimiter.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\Base\Limits\LimitCalculator.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\Base\Limits\Limiter.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\CNScripts\EScriptID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\IDRange.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\PhysicsManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\States\AddForce.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\States\LimitCalculatorTriggerCompare.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\States\PhysicsButtonClick.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\States\RigidbodyDataRecorder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\States\RigidbodyPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\States\ShootPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\Tools\BasePhysicsMB.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\Tools\Collisions\CollisionAudio.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\Tools\Collisions\CollisionObserver.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\Tools\Collisions\CollisionParticle.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\Tools\Collisions\MeshDamager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\Tools\Grounds\GroundMaterialConfig.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\Tools\Grounds\Skidmark.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\Tools\Interactors\ConfigurableJointLimitTrigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\Tools\Interactors\HingeJointLimitTrigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\Tools\Interactors\LimitCalculatorTrigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\Tools\Interactors\PhysicsButton.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Physicses\Plugins\Tools\Interactors\Shoot.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Audios\AudioHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Algorithms\ActiveGameObjectInfo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Algorithms\DirtyFlags.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Algorithms\EmptyTuple.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Algorithms\EnableComponentInfo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Algorithms\FloatValueTrigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Algorithms\IOwner.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Algorithms\RuntimePlatformInfo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Algorithms\XStringComparer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Attributes\AbbreviationAttribute.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Attributes\AnimatorParameterPopupAttribute.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Attributes\ComponentCollectionPopupAttribute.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Attributes\DropdownPopupAttribute.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Attributes\EnumTypePopupAttribute.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Attributes\LayerMaskAttribute.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Attributes\MemberNamePopupAttribute.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Attributes\ObjectPopupAttribute.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Components\BaseController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Components\BaseMainController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Components\BaseSubController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Components\ComponentPool.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Components\ITransformController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Base\Argument.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Base\ArgumentDetection.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Base\ArgumentTypeHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Base\DetectionRuleHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Base\EArgumentType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Base\EDetectionRule.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Base\PropertyValue.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Binders\AliasCache.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Binders\FieldOrPropertyBinder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Binders\FieldPropertyMethodBinder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Binders\ITypeMemberBinder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Binders\TypeBinder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Binders\TypeMemberBinder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\DataBinders\DataBinder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\DataBinders\DataBinderAttribute.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\DataBinders\DataBinderHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\DataBinders\IDataBinder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\DataBinders\TypeMemberDataBinder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Links\EDataLinkMode.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Links\IDataLink.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Models\ISendCollectionChangeEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Models\ISendEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Models\ISendPropertyChangeEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Models\ObservableList.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Models\XCollectionChangeEventArgs.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Models\XPropertyChangeEventArgs.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Dataflows\Models\XValueEventArg.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Events\ActionEventListener.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Events\ActionMethod.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Events\EventExtension.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Events\EventListener.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Events\InputEventArgs.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Events\TransformEventArgs.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Events\UnityEventListener.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Extensions\EnumerableExtenson.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Extensions\TypeCacheExtension.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Extensions\UnityObjectExtension.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Helpers\LayoutHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Helpers\ObjectHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Helpers\XRHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Inputs\EInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Inputs\EInputName.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Inputs\EMouseButton.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Inputs\IInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Inputs\InputAxis.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Inputs\InputCache.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Inputs\InputHandler.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Inputs\InputList.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Inputs\StandaloneInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Inputs\VirtualInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Inputs\XInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\InputSystems\EInputDevice.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\InputSystems\InputDeviceTypeAttribute.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\InputSystems\InputSystemHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Interactions\IInteractable.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Interactions\IInteractor.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Interactions\IInteractorInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Interactions\IOutline.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Kernel\AudioClipHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Kernel\DefaultDataHandler.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Kernel\DefaultObjectHandler.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Kernel\DefaultPathHandler.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Kernel\DefaultPluginsHandler.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Kernel\DefaultTweenHandler.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Kernel\PluginsHandlerExtension.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Kernel\UnityWebRequestClient.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Kernel\UnityWebRequestDataInfo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Kernel\WWWClient.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Kernel\WWWDataInfo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Maths\ECoordinateSystem.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Maths\MathExtension.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Maths\MathLibrary.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Maths\Matrix3x3.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Maths\QuadTree.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Maths\RotateMatrixHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Maths\Sphere.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Net\CrossPlatformTcpClient.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Net\WebSocket.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Net\WebSocketClient.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\PlguinsHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Recorders\CameraRecorder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Recorders\ComponentRecorder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Recorders\GameObjectRecorder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Recorders\GraphicRecorder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Recorders\IRecorder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Recorders\Recorder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Recorders\RectTransformRecorder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Recorders\RendererRecorder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Recorders\TerrainRecorder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Recorders\TransformRecorder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\RichTexts\RichText.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\RichTexts\RichTextStyle.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Tweens\AnimationCurveHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Tweens\EaseCurveHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Tweens\EEaseType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Tweens\ELineType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Tweens\GLHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Tweens\XGizmos.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Units\EAngleUnit.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Units\EDistanceUnit.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\Units\UnitAttribute.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\Behaviour_LinkType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\Component_LinkType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\GUI_LinkType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\GUIClip.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\GUILayoutEntry.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\GUILayoutGroup.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\GUILayoutUtility_LinkType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\GUIUtility_LinkType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\MonoBehaviour_LinkType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\RuntimeUndo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\ScriptableObject_LinkType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\UnityEngine_Object.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\XEvents\BaseInvokableCall.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\XEvents\UnityEvent_LinkType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\XEvents\UnityEventBase_LinkType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\XEventSystems\UIBehaviour_LinkType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\XUI\Graphic_LinkType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\XUI\MaskableGraphic_LinkType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\XUI\Selectable_LinkType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\XUI\Slider_LinkType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Base\XUnityEngine\XUI\Text_LinkType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Characters\Base\BaseCharacterCameraController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Characters\Base\BaseCharacterMover.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Characters\Base\BaseCharacterRotator.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Characters\Base\BaseCharacterSubController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Characters\CharacterCameraController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Characters\CharacterHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Characters\CharacterMover.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Characters\CharacterRotator.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Characters\Tools\BaseCharacterRotateController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Characters\Tools\CharacterAnimatorController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Characters\Tools\CharacterAnimatorForwardController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Characters\Tools\CharacterMoveByInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Characters\Tools\CharacterMoveInAgentByInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Characters\Tools\CharacterMoveSpeedByInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Characters\Tools\CharacterRotateByInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Characters\Tools\CharacterRotateByTouch.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Characters\XCharacterController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\Base\AnimationScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\Base\AppVarCollection.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\Base\BaseVarCollection.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\Base\EMonoBehaviourScriptEventType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\Base\MonoBehaviourScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\Base\MonoBehaviourScriptEventLite.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\Base\StaticVarCollection.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\Base\UserDefineScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\CNScriptHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\HierarchyKeyExtensionHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\HierarchyKeyGetHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\HierarchyKeySetHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\HierarchyVarWindow.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\Inputs\KeyCodeScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\Inputs\MouseButtonScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\Inputs\SingleKeyCodeScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\Inputs\TouchScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\NGUI\ENGUITriggerScriptEventType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\NGUI\NGUITriggerScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\UGUI\UGUIButtonScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\UGUI\UGUIDropdownScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\UGUI\UGUIInputFieldScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\UGUI\UGUIJoystickButtonScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\UGUI\UGUIScrollbarScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\UGUI\UGUIScrollViewScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\UGUI\UGUISliderScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\UGUI\UGUIToggleScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\CNScripts\UGUI\UGUITriggerScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Demos\InspectorDemo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Demos\MenuDemo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\EExtensionID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\ExtensionExample\EExampleScriptID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\ExtensionExample\IExtensionScript.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\ExtensionExampleManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\ComponentManagerExtension.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\EGenericStandardScriptID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Gif\FrameTexture.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Gif\GifHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Gif\GifTexture.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Gif\GifTextureAsset.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Gif\GifTexturePlayer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Gif\GifTextureRenderToImage.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Gif\GifTextureRenderToImageBatch.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Gif\GifTextureRenderToRawImage.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Gif\GifTextureRenderToRawImageBatch.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Gif\GifTextureRenderToRenderer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Gif\GifTextureRenderToRendererBatch.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Gif\GifTextureRenderToTarget.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Gif\GifTextureRenderToTargetBatch.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Gif\UniGif.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Managers\GUIManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Managers\SceneAssetsManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Managers\TimerManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Managers\WebCamManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Managers\WebDataManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\Messages\WebResponseOfWebRequestTask.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandards\SystemRuntimeInfo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\GenericStandardScriptManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Logs\DefaultLogManagerHandler.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Logs\LogViewerDrawer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Logs\LogViewerWindow.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Logs\States\LogPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\Logs\Tools\StateStatistics.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\OSInteractManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\OSInteracts\EOSInteractScriptID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\OSInteracts\EOSToUnityMsgCmd.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\OSInteracts\ESceneHandleRuleWhenFail.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\OSInteracts\EUnityToOSMsgCmd.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\OSInteracts\EVariableName.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\OSInteracts\OSInteract.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\OSInteracts\RuntimeInfo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\UNetworking\BaseVarNetSync.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\UNetworking\ColorNetSync.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\UNetworking\GameObjectActiveNetSync.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\UNetworking\MaterialNetSync.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\UNetworking\TransformNetSync.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\UNetworking\TransformNetSyncManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Plugins\UNetworking\VariableNetSync.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\CNScripts\EScriptID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\CNScripts\ForPartState.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Devices\Bag.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Devices\Device.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Devices\Module.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Devices\Part.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Devices\PartSocket.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Devices\PartViewItemData.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Devices\Tool.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Exam\RepairExam.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Exam\RepairExamPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Exam\RepairQuestion.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Exam\SkipQuestionWhenButtonClick.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Exam\UIExamInfo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Exam\UIExamResult.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Exam\UIQuestionCell.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Exam\UIQuestionTable.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Exam\UIQuestionTableRepairExamData.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Kernel\DefaultRepairmanHandler.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\RepairGuide.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\RepairmanHelperExtension.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\RepairmanInputSystem.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\RepairTask\BaseTask.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\RepairTask\RepairStep.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\RepairTask\RepairStepByMatchPosition.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\RepairTask\RepairStepGroup.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\RepairTask\RepairStepSkipWhenButtonClick.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\RepairTask\RepairStepSkipWhenVariableCompare.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\RepairTask\RepairTaskPlay.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\RepairTask\RepairTaskWork.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\RepairTask\RepairTaskWorkPartView.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\RepairTask\TaskHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\RepairTask\UITreeViewTaskWorkData.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Study\RepairStudy.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Study\RepairStudyListener.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Study\StudySelectGameObjectColor.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\Study\UIStudyTipInfo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\UI\GUIItem.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\UI\GUIItemButton.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\UI\GUIItemList.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\UI\GUIItemToggle.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\UI\GUIPartButton.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\UI\GUIPartList.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Repairman\Plugins\UI\GUIToolList.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Base\EClickType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Base\ELoopType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Base\EValueType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Base\IPath.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Base\Percent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Base\PercentRange.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Base\Range.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Base\TimeRange.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Base\WorkRange.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\CNScripts\LifecycleEventSet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\ESMSExtensionScriptID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\SMSExtensionManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\SMSHelperExtension.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Base\BaseProperty.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Base\EmptyWorkClip.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Base\GameObjectActive.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Base\GameObjectActiveTrigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Base\GameObjectSet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Base\LifecycleExecutor.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Base\Log.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Base\ObjectSet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Base\Timer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Base\ToggleTrigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Base\Trigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Base\WorkClip.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\CNScripts\LifecycleEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\CNScripts\LifecycleEventLite.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\CNScripts\VariableAssignment.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\CNScripts\VariableAssignmentBatch.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\CNScripts\VariableChange.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\CNScripts\VariableCompare.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Components\ColliderClick.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Components\ColliderClickBatch.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Components\ColliderEnable.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Components\ColliderTrigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Components\ColliderTriggerMB.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Components\ComponentEnable.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Components\ComponentPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Components\ComponentSet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Components\DistanceRangeTrigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Components\GetClickedCollider.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Components\ImagePropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Components\LightPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Components\MaterialPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Components\RenderPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Components\RenderQueue.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Components\SingleComponentEnable.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\DataflowHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\DataModel\DataRecorder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\DataModel\DataRecovery.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\DataModel\GameObjectSocket.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\DataModel\RendererDataRecorder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\DataModel\SingleGroup.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\DataModel\SingleGroupMember.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\DataModel\TransformDataRecorder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\DataModel\WebData.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\Events\ActionEventTrigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\Events\UnityEventExecutor.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\Events\UnityEventTrigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\FieldBinds\Base\BindObjectUpdaterAttribute.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\FieldBinds\Base\IFieldBind.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\FieldBinds\Base\ObjectUpdaterCache.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\FieldBinds\Base\Slider_ObjectUpdater.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\FieldBinds\Base\Text_ObjectUpdater.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\FieldBinds\BaseFieldBind.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\FieldBinds\BindHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\FieldBinds\ComponentParamBind.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\FieldBinds\FieldBind.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\FieldBinds\FieldBindBatch.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\FieldBinds\FieldBindBatchOfVirtual.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\FieldBinds\FieldBindOfVirtual.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\FieldBinds\MonoBehaviourParamBind.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\FieldBinds\StateComponentParamBind.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\FieldBinds\StateComponentParamBindBatch.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\FieldBinds\StateParamBind.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\FieldBinds\TransitionComponentParamBind.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\FieldBinds\TransitionParamBind.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\PropertyBinds\BaseGetProperty.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\PropertyBinds\GetAndSetProperty.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\PropertyBinds\GetProperty.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\PropertyBinds\MultiPropertyCompare.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\PropertyBinds\PropertyCompare.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Dataflows\PropertyBinds\SetProperty.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Inputs\GestureDetector.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Inputs\InputEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Inputs\InputKeyCode.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\AlignAndSetTarget.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\Alpha.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\AroundCameraMotion.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\CameraPath.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\CNScriptTrigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\Color.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\ComponentEnabledRange.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\ComponentFlash.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\Flash.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\GameObjectActiveRange.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\GameObjectFlash.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\GameObjectPath.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\GradientColor.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\Motion.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\Move.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\MoveAroundCameraTrigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\MoveTo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\Path.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\RangeHandle.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\RendererAlphaRange.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\RendererColorRange.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\RendererEnableRange.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\RendererFlash.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\RendererMaterialRange.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\RendererRange.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\RendererRangeHandle.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\Rotate.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\RotateTo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\Scale.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\TransformMotion.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\UGUIColor.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\UGUIGradientColor.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Motions\WorkClipTrigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\MultiMedia\Audio.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\MultiMedia\AudioSourcePropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\MultiMedia\LoopAnimator.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\MultiMedia\PathAnimation.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\MultiMedia\RangeAnimator.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\MultiMedia\SingleAnimator.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\MultiMedia\Subtitle.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\MultiMedia\UnityAnimator.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\MultiMedia\Video.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\MultiMedia\VideoPlayerPropertyCompare.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\MultiMedia\VideoPlayerPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\MultiMedia\XParticleSystem.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\MultiMedia\XPlayableDirector.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\MultiMedia\XPlayableDirectorEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Operations\StateActive.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Operations\StateDetection.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Operations\StateInSMSetInactive.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Operations\StateProgress.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Operations\StateReset.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Operations\StateSpeed.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Operations\SyncState.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Others\AlignGameObject.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Others\FunctionTest.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Others\Put.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Others\ViewItemGameObjectPutEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Selections\AutoSelectMoveGameObject.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Selections\RangeSelectGameObject.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Selections\SelectionContainGameObject.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Selections\SelectionCountCompare.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Selections\SelectionPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Show\AutoRotation.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Show\IStep.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Show\Plan.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Show\Step.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Show\StepClip.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Show\StepGroup.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Show\StepGroupHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Show\StepGroupOperation.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Show\StepGroupRoot.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Show\UI\GUICurrentStepIndex.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Show\UI\GUIStepCount.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Show\UI\GUIStepGroupInfo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\Show\UITreeViewPlanData.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\TimeLine\StateWorkClip.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\TimeLine\StateWorkClipSet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\TimeLine\TimeLinePlayContent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\TimeLine\TimeLinePlayer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\TimeLine\TimeLinePlayerOperation.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\TimeLine\UI\TimeLinePlayerUIOperation.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\TimeLine\UI\TimeLineProgressSlider.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\TimeLine\UI\TimeLineUIRoot.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\TimeLine\WorkClipHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\TimeLine\WorkClipSet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\ButtonClick.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\Dropdowns\BaseDropdownEventTrigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\Dropdowns\BaseDropdownSwitch.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\Dropdowns\BaseDropdownSwitchOfEnum.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\Dropdowns\BaseSetDropdownOption.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\Dropdowns\BaseSetDropdownOptionOfEnum.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\Dropdowns\BaseSetDropdownOptions.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\Dropdowns\BaseSetDropdownOptionsOfEnum.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\Dropdowns\BaseSetDropdownProperty.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\Dropdowns\DropdownSwitch.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\Dropdowns\DropdownSwitchOfEnum.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\Dropdowns\SetDropdownOption.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\Dropdowns\SetDropdownOptionOfEnum.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\Dropdowns\SetDropdownOptions.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\Dropdowns\SetDropdownOptionsOfEnum.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\InputFieldEdit.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\InputFields\InputFieldPropertyGet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\InputFields\InputFieldPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\ScrollBarController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\SliderController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\ToggleSwitch.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\ToggleSwitchBatch.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\States\UGUI\UGUIEventTriggerLite.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Transitions\Base\ColliderClick.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Transitions\Base\SkipHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Transitions\Base\SkipState.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Transitions\Base\StateComponentFinishSkip.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Transitions\Base\Trigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Transitions\Base\VariableCompare.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Transitions\Base\VariableCompareSkip.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Transitions\CNScripts\LifecycleEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Transitions\CNScripts\LifecycleEventLite.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Transitions\Dataflows\Events\ActionEventTrigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Transitions\UGUI\ButtonClick.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Transitions\UGUI\ButtonClickSkip.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Transitions\UGUI\ToggleSwitch.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Transitions\UGUI\UGUIEventTriggerLite.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\SMS\Plugins\Transitions\UGUI\UGUIEventTriggerLiteSkip.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\StereoView\Plugins\CNScripts\EScriptID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\StereoView\Plugins\IDRange.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\StereoView\Plugins\States\CameraProjectionPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\StereoView\Plugins\States\VirtualScreenPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\StereoView\Plugins\StereoViewHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\StereoView\Plugins\StereoViewManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\StereoView\Plugins\Tools\BaseScreen.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\StereoView\Plugins\Tools\CameraProjection.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\StereoView\Plugins\Tools\ScreenAnchorLink.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\StereoView\Plugins\Tools\ScreenGroup.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\StereoView\Plugins\Tools\StereoCamera.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\StereoView\Plugins\Tools\VirtualScreen.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Timelines\Plugins\CNScripts\VideoScriptEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Timelines\Plugins\EScrptID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Timelines\Plugins\TimelineManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Timelines\Plugins\Videos\VideoViewItemData.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Timelines\Plugins\Videos\VideoViewItemDataList.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\AI\Autos\AutoActiveGameObject.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\AI\Autos\AutoActiveGameObjectByByRuntimePlatform.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\AI\Autos\AutoEnableComponent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\AI\Autos\AutoEnableComponentByRuntimePlatform.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\AI\Autos\AutoMove.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\AI\Autos\AutoMoveKinematic.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\AI\Autos\AutoRotate.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\AI\Autos\AutoRotateKinematic.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\AI\Autos\AutoScale.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\AI\Autos\AutoWait.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Base\MouseUpAsButtonEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Base\ToolMBForUnityEditorSelection.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Base\TriggerEventMB.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Cameras\CameraBackdrop.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\CNScripts\EExtensionScriptID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\CNScripts\EScriptID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Controllers\FollowTarget.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Controllers\MoveController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Controllers\RotateController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Controllers\ScaleController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Controllers\ToolController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Dashboards\CNVariableDashboard.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Dashboards\Dashboard.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Dashboards\WarmingDashboard.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\ExplodedViews\EExplodeType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\ExplodedViews\ExplodeData.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\ExplodedViews\ExplodedViewHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\ExplodedViews\MBs\ExplodedView.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\ExplodedViews\States\ExplodedView.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\ExtensionIDRange.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\GameObjects\EnableComponentByViewItemGameObjectDragEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\GameObjects\GameObjectPhotograph.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\GameObjects\GameObjectPutSocket.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\GameObjects\GameObjectSocket.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\GameObjects\GameObjectSocketCache.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\GameObjects\GameObjectViewItem.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\GameObjects\GameObjectViewItemData.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\GameObjects\GameObjectViewItemDataList.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\GameObjects\GameObjectViewItemDataMB.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\GameObjects\GameOjectViewInfoMB.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\GameObjects\ViewItemGameObjectPut.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\GameObjects\ViewItemGameObjectPutByRay.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\GameObjects\ViewItemGameObjectPutBySocket.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Base\DirectionInfo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Base\PositionInfo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Base\RayPicker.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Base\ReferencePoint.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Hands\Finger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Hands\Hand.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Hands\HandGrabbable.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Hands\HandPose.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Interactables\BaseInteractable.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Interactables\Grabbable.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Interactables\IGrabbable.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Interactables\SwitchInteractable.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Interactors\BaseInteractor.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Interactors\BasePicker.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Interactors\IPicker.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Interactors\PickActionTriggerByKeyCode.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Interactors\RigibodyPicker.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Items\Bag.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Items\BagItem.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Items\BagWindowByIMGUI.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Items\BaseItem.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Items\EntityBag.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Items\EntityBagItem.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Items\EntityItem.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Items\EntityItemInstanceCollection.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Items\EntityItemInstanceCollections.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Interactions\Items\EntityItemTemplateCollection.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Kernel\DefaultToolsHandler.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Libraries\Tools\BaseLibrary.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Libraries\Tools\BaseTextureLibrary.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Libraries\Tools\Texture2DLibrary.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Libraries\Tools\TextureLibrary.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\Billboard.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\Dimensionings\AngleDimensioning.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\Dimensionings\ClickPointPicker.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\Dimensionings\Dimensioning.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\Dimensionings\DimensioningHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\Dimensionings\DistanceDimensioning.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\Dimensionings\MeshLine.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\Dimensionings\SizeDigital.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\LineNotes\AnimationLineNote3D.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\LineNotes\BaseLineNote.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\LineNotes\GUILineNote2D.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\LineNotes\LineNote.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\LineNotes\LineNote2D.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\LineNotes\LineNote3D.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\LineNotes\LineStyle.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\LineNotes\RendererVisibleListener.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\LineNotes\UGUILineNote3D.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\Tips\ColliderTip.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\Tips\Tip.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Notes\Tips\UGUITip.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Others\ApplicationQuit.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Others\TrackGyro.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Puts\DragByCameraView.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Puts\DragByRay.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Puts\PutHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Puts\TRSHandles\HandleHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Puts\TRSHandles\HandleMesh.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Puts\TRSHandles\HandleTransform.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Puts\TRSHandles\TRSHandle.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Puts\TRSHandles\TRSHandleUIOperation.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\ReferencedObjects\ReferencedCategory.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\ReferencedObjects\ReferencedObject.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\ReferencedObjects\ReferencedObjectHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\ReferencedObjects\ReferencedSet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Renderers\GizmoRenderer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Renderers\GLTextureRenderer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Renderers\GLVertexRenderer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Renderers\GLWireFrameRenderer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Renderers\ToolRenderer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Renderers\UVMoveMotion.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\SelectionUtils\BoundsProvider.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\SelectionUtils\DragByMouse.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\SelectionUtils\LimitedSelection.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\SelectionUtils\OutlineController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\SelectionUtils\SelectionBoundsRenderer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\SelectionUtils\SelectionColorRenderer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\SelectionUtils\SelectionDragByMouse.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\SelectionUtils\SelectionDragController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\SelectionUtils\SelectionListenerMB.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\SelectionUtils\SelectionMaterialRenderer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\SelectionUtils\SelectionModify.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\SelectionUtils\SelectionOutlineRenderer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\SelectionUtils\SelectionRecorderRenderer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\SelectionUtils\SelectionWindowByIMGUI.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\Terrains\TerrainHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\Tools\Plugins\ToolsExtensionManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Audios\ExhaustAudio.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Audios\GearBoxAudio.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Audios\IndicatorLightAudio.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Audios\NOSAudio.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Audios\VehicleAudio.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Audios\WheelAudio.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Base\BaseVehicle.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Base\IBrake.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Base\IEngine.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Base\IFuel.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Base\IGearBox.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Base\ISteer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Base\IVehicleController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Base\IVehicleLightController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Base\VehicleEventArgs.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Controllers\Brake.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Controllers\Engine.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Controllers\Fuel.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Controllers\GearBox.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Controllers\Steer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Controllers\VehicleController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Controllers\VehicleDriver.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Controllers\VehicleDriverInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Controllers\VehicleLight.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Controllers\VehicleLightController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Controllers\VehiclePhysicConfig.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Controllers\WheelDriver.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\Controllers\WheelDriverBinder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\DriveAssists\AntiRollBar.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\DriveAssists\AutoRotationVehicle.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\DriveAssists\EngineHeat.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\DriveAssists\ESP.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\DriveAssists\Exhaust.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\DriveAssists\FuelStation.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\DriveAssists\NOS.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\DriveAssists\Stabilizer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\DriveAssists\VehicleSkidmark.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\DriveAssists\WheelParticle.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\IDRange.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\States\VehicleControllerPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\States\VehicleControllerStateTrigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\States\VehicleDriverPropertyCompare.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\States\VehicleDriverPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\States\VehicleDriverStateTrigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\UI\HUD\EngineHeatDashboard.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\UI\HUD\ESPIcon.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\UI\HUD\FuelDashboard.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\UI\HUD\FuelTextInfo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\UI\HUD\NOSDashboard.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\UI\HUD\RPMDashboard.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\UI\HUD\SpeedDashboard.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\UI\HUD\VehicleHUD.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\UI\HUD\VehicleIcon.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\UI\HUD\VehicleTextInfo.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\UI\Inputs\VehicleToggleStateUI.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\UI\Inputs\VehicleUIInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\VehicleDriveHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\VehicleDrives\Plugins\VehicleDriveManger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XBox\Plugins\Base\EXBoxAxis.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XBox\Plugins\Base\EXBoxAxisAndButton.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XBox\Plugins\Base\EXBoxButton.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XBox\Plugins\EScriptID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XBox\Plugins\States\XBoxAxisAndButtonEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XBox\Plugins\Tools\CameraMoveByXBox.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XBox\Plugins\Tools\CameraRotateByXBox.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XBox\Plugins\Tools\CharacterMoveByXBox.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XBox\Plugins\Tools\CharacterRotateByXBox.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XBox\Plugins\Tools\InteractIOByXBox.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XBox\Plugins\Tools\TransformByXBox.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XBox\Plugins\XBoxHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XBox\Plugins\XBoxManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Base\ContentArea.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Base\Popup.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Base\RootWindow.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Base\SubWindow.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Base\SubWindowGetter.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Base\SubWindowOperation.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Base\TitleBar.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Base\View.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Base\Window.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Base\WindowResizer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Base\XGUICategory.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Base\XGUIEventArgs.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\CNScripts\EScriptID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\IDRange.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Base\BaseStyleElement.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Base\ComponentStyle.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Base\StyleElementCollection.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Base\StyleHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Base\StyleLinkAttribute.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Base\XStyle.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Base\XStyleCache.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Elements\ButtonStyleElement.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Elements\DropdownStyleElement.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Elements\ImageStyleElement.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Elements\InputFieldStyleElement.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Elements\RawImageStyleElement.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Elements\ScrollBarStyleElement.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Elements\ScrollRectStyleElement.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Elements\SelectableStyleElement.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Elements\SliderStyleElement.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Elements\TextStyleElement.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Elements\ToggleStyleElement.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Tools\StyleConfiger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Styles\Tools\StyleLinker.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Dropdowns\BaseCustomDropdownEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Dropdowns\BaseDropdownEventTriggerOfEnum.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Dropdowns\BaseSetDropdownOptions.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Dropdowns\BaseSetDropdownOptionsOfEnum.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Dropdowns\BaseSetDropdownProperty.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Dropdowns\CustomDropdownEvent.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Dropdowns\CustomDropdownEventOfEnum.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Dropdowns\DropdownEventTrigger.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Dropdowns\DropdownEventTriggerOfEnum.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Dropdowns\DropdownExtension.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Dropdowns\DropdownMB.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Dropdowns\SetDropdownOptionsOfEnum.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Graphics\GraphicDragColor.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Graphics\GraphicItemEffect.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\InputFields\InputFieldValidator.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\InputFields\InputFieldValidatorToSelectable.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Inputs\BaseAnalogInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Inputs\BaseAnalogInputUpdater.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Inputs\ButtonAnalogInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Inputs\JoystickAnalogInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Inputs\KeyCodeButtonAnalogInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Inputs\MouseButtonAnalogInput.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\ScrollViews\ScrollViewController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\ScrollViews\ViewItem.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\ScrollViews\ViewItemCollection.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\ScrollViews\ViewItemData.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\ScrollViews\ViewItemDataCollection.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\ScrollViews\ViewItemDataCollectionMB.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\ScrollViews\ViewItemDataMB.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Sliders\BoxSlider.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Sliders\SliderToInputFieldValidator.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Sliders\SliderTransformBind.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Sliders\SliderTransformPositionBind.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Sliders\SliderTransformRotationBind.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Sliders\SliderTransformScaleBind.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Sliders\SliderValueShowText.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Sliders\SliderXYZBind.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Sliders\XYZSlider.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Texts\BaseText.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Texts\DateTimeText.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Texts\TypewriterEffect.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Texts\UITextFormat.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Texts\VariableShowText.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Toggles\ToggleEffect.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Toggles\ToggleSwitchGameObjectActive.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Views\Toggles\ToggleSwitchGraphic.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ColorPickers\ColorButton.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ColorPickers\ColorButtonCreater.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ColorPickers\ColorImage.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ColorPickers\ColorPicker.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ColorPickers\ColorPickerBinder.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ColorPickers\ColorPickerObserver.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ColorPickers\ColorPresets.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ColorPickers\ColorSlider.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ColorPickers\ColorSliderImage.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ColorPickers\ColorValueObserver.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ColorPickers\HexColorField.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ColorPickers\SVBoxSlider.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ImageBrowers\AutoTurnScrollPage.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ImageBrowers\DragAction.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ImageBrowers\ImageBrower.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ImageBrowers\ImageItem.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ImageBrowers\ScrollPage.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ImageBrowers\ScrollPageIndexText.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ImageBrowers\ScrollPageToggle.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ImageBrowers\ShowImage.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\ImageBrowers\TrundleAction.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\MiniMaps\MiniMap.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\MiniMaps\MiniMapCameraController.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\MiniMaps\MiniMapItem.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\MiniMaps\MiniMapPlayer.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\MiniMaps\MiniMapTeleport.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\TreeViews\UITreeNode.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\TreeViews\UITreeView.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\UGUIWindow.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\Weathers\EWeatherDataType.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\Weathers\Weather.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\Weathers\WeatherData.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\Weathers\WeatherDataImage.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\Weathers\WeatherDataText.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\Windows\Weathers\WeatherDataUI.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\XGUIHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XGUI\Plugins\XGUIManager.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XRSpaceSolution\Plugins\Base\XRExtensionQA.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XRSpaceSolution\Plugins\CNScripts\EScriptsID.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XRSpaceSolution\Plugins\Tools\XRSpace.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XRSpaceSolution\Plugins\Tools\XRSpaceNet.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XRSpaceSolution\Plugins\XRSpaceSolutionHelper.cs" />
+    <Compile Include="Assets\XDreamer\Scripts\XRSpaceSolution\Plugins\XRSpaceSolutionManager.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ART\Plugins\ARTHelper.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ART\Plugins\ARTManager.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ART\Plugins\Base\ARTNative.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ART\Plugins\Base\ARTObjectExtension.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ART\Plugins\Base\EFlystick.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ART\Plugins\States\FlystickButtonEvent.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ART\Plugins\Tools\ARTStreamClient.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ART\Plugins\Tools\BaseTransformByART.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ART\Plugins\Tools\CameraTransformByART.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ART\Plugins\Tools\InteractIOByART.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ART\Plugins\Tools\PoseIOByART.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ART\Plugins\Tools\TransformByART.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ART\Plugins\Tools\TransformByARTFlystick.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\EasyAR\Scripts\Plugins\EasyARManager.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\EasyAR\Scripts\Plugins\EEasyARScriptID.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\EasyAR\Scripts\Plugins\ExtendARSession.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\EasyAR\Scripts\Plugins\ExtendARShader.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\EasyAR\Scripts\Plugins\ExtendImageTargetController.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\EasyAR\Scripts\Plugins\ExtendImageTrackerBehaviour.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\EasyAR\Scripts\Plugins\ImageTargetMB.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\EasyAR\Scripts\Plugins\ScriptEasyAREvent.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\EasyAR\Scripts\Plugins\ScriptImageTargetEvent.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\EasyAR\Scripts\Plugins\States\ImageRecognition.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HoloLens\Scripts\Plugins\CommonOperation.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HoloLens\Scripts\Plugins\HoloLensManager.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HoloLens\Scripts\Plugins\HololensScriptID.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HoloLens\Scripts\Plugins\InputListener.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HoloLens\Scripts\Plugins\InputMessage.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HoloLens\Scripts\Plugins\Resource.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HoloLens\Scripts\Plugins\States\Click.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HoloLens\Scripts\Plugins\States\Dataflows\SliderGestureControl_ObjectUpdater.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HoloLens\Scripts\Plugins\States\Drag.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HoloLens\Scripts\Plugins\States\Focus.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HoloLens\Scripts\Plugins\States\HoloLensStateComponent.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HoloLens\Scripts\Plugins\States\SpatialPut.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HoloLens\Scripts\Plugins\States\Speech.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HTCVive\Plugins\Base\EViveCosmosAxisAndButton.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HTCVive\Plugins\Base\EViveFocusAxisAndButton.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HTCVive\Plugins\Base\EViveProAxisAndButton.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HTCVive\Plugins\Base\SteamVRHelper.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HTCVive\Plugins\Base\ViveDeviceHelper.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HTCVive\Plugins\EScriptID.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HTCVive\Plugins\HTCViveManager.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HTCVive\Plugins\States\EViveAxisAndButtonEvent.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HTCVive\Plugins\Tools\InteractIOByVive.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HTCVive\Plugins\Tools\TransformByVive.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HTCVive\Plugins\Tools\ViveContinuousMoveProvider.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HTCVive\Plugins\Tools\ViveContinuousTurnProvider.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\HTCVive\Plugins\Tools\ViveSnapTurnProvider.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\OptiTrack\Plugins\Base\OptiTrackRigidBodyExtension.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\OptiTrack\Plugins\CNScripts\EScriptID.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\OptiTrack\Plugins\IDRange.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\OptiTrack\Plugins\OptiTrackHelper.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\OptiTrack\Plugins\OptiTrackManager.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\OptiTrack\Plugins\Tools\BaseTransformByOptiTrack.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\OptiTrack\Plugins\Tools\CameraTransformByOptiTrack.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\OptiTrack\Plugins\Tools\PoseIOByOptiTrack.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\OptiTrack\Plugins\Tools\RigidBodyTransformByOptiTrack.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\SamsungWMR\Plugins\Base\ESamsungWMRAxisAndButton.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\SamsungWMR\Plugins\EScriptID.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\SamsungWMR\Plugins\SamsungWMRManager.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\SamsungWMR\Plugins\States\ESamsungWMRAxisAndButtonEvent.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\SamsungWMR\Plugins\Tools\InteractIOBySamsungWMR.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\SamsungWMR\Plugins\Tools\SamsungWMRContinuousMoveProvider.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\SamsungWMR\Plugins\Tools\SamsungWMRContinuousTurnProvider.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\SamsungWMR\Plugins\Tools\SamsungWMRSnapTurnProvider.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\SamsungWMR\Plugins\Tools\TransformBySamsungWMR.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\Sqlite3\Scripts\Plugins\Sqlite.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\Sqlite3\Scripts\Plugins\SqliteMB.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\VoxelTracker\Plugins\Base\PropertyValues.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\VoxelTracker\Plugins\States\StylusEvent.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\VoxelTracker\Plugins\States\StylusOnePropertyGet.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\VoxelTracker\Plugins\States\StylusOnePropertySet.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\VoxelTracker\Plugins\States\VoxelCheckStatusPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\VoxelTracker\Plugins\States\VoxelUpdateDataPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\VoxelTracker\Plugins\VoxelTrackerHelper.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\VoxelTracker\Plugins\VoxelTrackerManager.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Base\States\ARSessionPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Base\States\BaseDetector.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Base\States\TrackerEvent.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Base\Tools\ActiveGameObjectByTrackerEvent.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Base\Tools\BaseTracker.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Base\Tools\ETrackEvent.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Base\Tools\TrackData.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Cameras\States\ARCameraManagerPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\EScriptID.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Faces\States\ARFaceManagerPropertyCompare.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Faces\States\ARFaceManagerPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Faces\States\FaceDetector.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Faces\States\FaceTrackerPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Faces\Tools\FaceData.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Faces\Tools\FaceRegionTracker.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Faces\Tools\FaceTracker.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Images\States\ARTrackedImageManagerPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Images\States\ImageDetector.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Images\Tools\ImageData.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Images\Tools\ImageTracker.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Images\Tools\ImageTrackerVisualizer.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Images\Tools\ImgaeTrackerHelper.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Planes\States\ARPlaneManagerPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Planes\States\PlaneDetector.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Planes\Tools\PlaneData.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\Planes\Tools\PlaneTracker.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\XARFoundationHelper.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XAR.Foundation\Plugins\XARFoundationManager.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\Base\InputDeviceHelper.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\Base\InteractionLayerMaskPropertyValue.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\EScriptID.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\States\CustomPropertyValue.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\States\Interactables\InteractableEvent.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\States\Interactables\InteractablePropertySet.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\States\Interactors\InteractorEvent.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\States\Interactors\InteractorPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\States\Locomotions\LocomotionEvent.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\States\UI\TrackedDeviceGraphicRaycasterPropertySet.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\Tools\Controllers\AnalogController.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\Tools\Controllers\BaseAnalogControllerIO.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\Tools\Controllers\CameraTransformByXRHMDDevice.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\Tools\Controllers\InteractIOByKeyCode.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\Tools\Controllers\PoseIOByXRHandDevice.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\Tools\LocomotionProviders\AnalogLocomotionProvider.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\Tools\LocomotionProviders\BaseAnalogLocomotionProviderIO.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\Tools\LocomotionProviders\MoveIOByKeyCode.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\Tools\LocomotionProviders\RotateIOByKeyCode.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\Tools\XROriginOwner.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\XRITHelper.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\XXR.Interaction.Toolkit\Plugins\XXRInteractionToolkitManager.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ZVR\Plugins\Base\ZVRObjectExtension.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ZVR\Plugins\Tools\BaseTransformByZVR.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ZVR\Plugins\Tools\CameraTransformByZVR.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ZVR\Plugins\Tools\PoseIOByZVR.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ZVR\Plugins\Tools\RigidBodyTransformByZVR.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ZVR\Plugins\ZVRHelper.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ZVR\Plugins\ZVRManager.cs" />
+    <Compile Include="Assets\XDreamer\ThirdParty\ZXing\Scripts\Plugins\QRCode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\AR\Shaders\Mask.shader" />
+    <None Include="Assets\AR\Shaders\ShadowOnly.shader" />
+    <None Include="Assets\AR\Shaders\TextureOneTime.shader" />
+    <None Include="Assets\EasyAR\Shaders\CameraImage_BGR.shader" />
+    <None Include="Assets\EasyAR\Shaders\CameraImage_Gray.shader" />
+    <None Include="Assets\EasyAR\Shaders\CameraImage_RGB.shader" />
+    <None Include="Assets\EasyAR\Shaders\CameraImage_YUV_I420_YV12.shader" />
+    <None Include="Assets\EasyAR\Shaders\CameraImage_YUV_NV12.shader" />
+    <None Include="Assets\EasyAR\Shaders\CameraImage_YUV_NV21.shader" />
+    <None Include="Assets\EasyAR\Shaders\DenseSpatialMapDepth.shader" />
+    <None Include="Assets\EasyAR\Shaders\DenseSpatialMapMesh.shader" />
+    <None Include="Assets\EasyAR\Shaders\ImageTargetGizmo.shader" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\StreamingAssets\XDreamer\Other\Sqlite3\readme.txt" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\AlwaysOnTop.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\ColoredBlended.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\Control.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\CrossSection\GenericThreePlanesBSP.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\CrossSection\StincelledUnlitTexture.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\CrossSection\UnionGenericThreePlanesBSP.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\HighlightingSystem\HighlightingBlur.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\HighlightingSystem\HighlightingComposite.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\HighlightingSystem\HighlightingCut.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\HighlightingSystem\HighlightingOpaque.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\HighlightingSystem\HighlightingTransparent.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\Outline\Dilate.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\Outline\Outline.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\Outline\SeparableBlur.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\Outline\UnlitColor.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\StandardDoubleFace.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\Standard_Transparent_Cut.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\Standard_Triplanar_Cut.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\TRSDragTool\GridLine.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\TRSDragTool\HandleUnlitFresnel.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\TRSDragTool\HandleUnlitTransparent.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\TRSDragTool\LineNormalCulling.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\TransparentRim.shader" />
+    <None Include="Assets\XDreamer-Assets\基础\Shaders\XR\SimpleTeleportHighlight.shader" />
+    <None Include="Assets\XDreamer\Editor\XCSJ.EditorCamera.xml" />
+    <None Include="Assets\XDreamer\Editor\XCSJ.EditorCommonUtils.xml" />
+    <None Include="Assets\XDreamer\Editor\XCSJ.EditorDataBase.xml" />
+    <None Include="Assets\XDreamer\Editor\XCSJ.EditorRepairman.xml" />
+    <None Include="Assets\XDreamer\Editor\XCSJ.EditorSMS.xml" />
+    <None Include="Assets\XDreamer\Editor\XCSJ.EditorTools.xml" />
+    <None Include="Assets\XDreamer\Plugins\HOTween.xml" />
+    <None Include="Assets\XDreamer\Plugins\XCSJ.PluginCamera.xml" />
+    <None Include="Assets\XDreamer\Plugins\XCSJ.PluginCommonUtils.xml" />
+    <None Include="Assets\XDreamer\Plugins\XCSJ.PluginDataBase.xml" />
+    <None Include="Assets\XDreamer\Plugins\XCSJ.PluginRepairman.xml" />
+    <None Include="Assets\XDreamer\Plugins\XCSJ.PluginSMS.xml" />
+    <None Include="Assets\XDreamer\Plugins\XCSJ.PluginTools.xml" />
+    <None Include="Assets\XDreamer\Plugins\XCSJ.xml" />
+    <None Include="Assets\XDreamer\Plugins\link.xml" />
+    <None Include="Assets\XDreamer\SCAD\SafetyCertificate.scad.txt" />
+    <None Include="Assets\XDreamer\ThirdParty\AssetsExporter\Scripts\Editor\FBXExporter5_0\readme.txt" />
+    <None Include="Assets\XDreamer\ThirdParty\HoloLens\readme.txt" />
+    <None Include="Assets\XDreamer\ThirdParty\Sqlite3\readme.txt" />
+    <None Include="Assets\XDreamer\ThirdParty\ZXing\Plugins\zxing.unity.xml" />
+    <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryCommon.uss" />
+    <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryDark.uss" />
+    <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryLight.uss" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\Alert.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageAddFromUrlField.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageDetails.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageGroup.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageItem.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageList.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageManagerToolbar.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageManagerWindow.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageSearchToolbar.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageStatusBar.uxml" />
+    <None Include="Packages\com.unity.textmeshpro\Editor Resources\Shaders\TMP_Properties.cginc" />
+    <None Include="Packages\com.unity.textmeshpro\Editor Resources\Shaders\TMP_SDF Internal SSD.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

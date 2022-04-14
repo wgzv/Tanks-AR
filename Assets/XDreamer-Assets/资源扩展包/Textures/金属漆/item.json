@@ -1,0 +1,45 @@
+﻿
+[
+    {
+        "tags" : [
+            "金属漆划伤漫反射"
+        ],
+        "source" : "",
+        "guid"   : "d5bddedfe68a21a469cdc92de9642a43",
+        "name"   : "METPAINT_Scratched_DIF",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属漆划伤"
+        ],
+        "source" : "",
+        "guid"   : "3ba4aee1b64a63c46b64d49f02471036",
+        "name"   : "METPAINT_Scratched_MET",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属漆划伤法线"
+        ],
+        "source" : "",
+        "guid"   : "02094a4717a00324ba44b14b87ace061",
+        "name"   : "METPAINT_Scratched_NRM",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

@@ -1,0 +1,87 @@
+﻿
+[
+    {
+        "tags" : [
+            "棕色砖横向"
+        ],
+        "source" : "",
+        "guid"   : "3c3807e984627b14183a56cdafefba59",
+        "name"   : "BRICKS_Brown_Horizontal",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "棕色砖纵向"
+        ],
+        "source" : "",
+        "guid"   : "c42b43e707b645f4bbfa20817a9af353",
+        "name"   : "BRICKS_Brown_Vertical",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "混凝土块砖"
+        ],
+        "source" : "",
+        "guid"   : "300c59397dc6641428c1e6257d337cb2",
+        "name"   : "BRICKS_ConcreteBlocks",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "混凝土块砖纵向"
+        ],
+        "source" : "",
+        "guid"   : "88459c584c9cdac478f5f5ed01d13a9c",
+        "name"   : "BRICKS_ConcreteBlocks_Vertical",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "白色砖"
+        ],
+        "source" : "",
+        "guid"   : "80bbda6fa99e7154c980be0147511f60",
+        "name"   : "BRICKS_White",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "白色砖纵向"
+        ],
+        "source" : "",
+        "guid"   : "8d37f620f6e2fdb4cbe2a737fa16b7f2",
+        "name"   : "BRICKS_White_Vertical",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

@@ -1,0 +1,227 @@
+﻿
+[
+    {
+        "tags" : [
+            "碳纤维"
+        ],
+        "source" : "",
+        "guid"   : "ebb6c2a0f6b22f548a0892f7f8b21c1a",
+        "name"   : "MISC_CarbonFiber",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "混凝土"
+        ],
+        "source" : "",
+        "guid"   : "94a73dec33225cf44a5b44ca2ef745ec",
+        "name"   : "MISC_Concrete",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "混凝土黑沥青"
+        ],
+        "source" : "",
+        "guid"   : "cda9addac96f64e49b7be4449cfb5686",
+        "name"   : "MISC_Concrete_AsphaltBlack",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "混凝土粗骨料"
+        ],
+        "source" : "",
+        "guid"   : "eed9fce2988a6034295eb4852ff96801",
+        "name"   : "MISC_Concrete_Rough",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "黄色漆混凝土粗骨料"
+        ],
+        "source" : "",
+        "guid"   : "076373af7eadbb043a9a903a6b1666c6",
+        "name"   : "MISC_Concrete_Rough_Yellow_Painted",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "混凝土块"
+        ],
+        "source" : "",
+        "guid"   : "b2a45a0636c74c94b84aac67cda01a69",
+        "name"   : "MISC_Concrete_Tiles",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "黑色皮革"
+        ],
+        "source" : "",
+        "guid"   : "72637ef49da8e1d4081dcca0fbdac287",
+        "name"   : "MISC_Leather_Black",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "蓝色皮革"
+        ],
+        "source" : "",
+        "guid"   : "836cfee3340068843872b54c44a96345",
+        "name"   : "MISC_Leather_Blue",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "奶油色皮革"
+        ],
+        "source" : "",
+        "guid"   : "aface82e9dc0f3241a2a46b259ec5e6a",
+        "name"   : "MISC_Leather_Cream",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "灰色皮革"
+        ],
+        "source" : "",
+        "guid"   : "4df5edd1433edc64da9165b16ce4b924",
+        "name"   : "MISC_Leather_Grey",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "橙色皮革"
+        ],
+        "source" : "",
+        "guid"   : "9b433fddfe7fe9044b9cf10fb73d7e1a",
+        "name"   : "MISC_Leather_Orange",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "红色皮革"
+        ],
+        "source" : "",
+        "guid"   : "492d685597dea144e80e1dc0979ff707",
+        "name"   : "MISC_Leather_Red",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "纸盒"
+        ],
+        "source" : "",
+        "guid"   : "b7745968775086348b1651366e4cc5d7",
+        "name"   : "MISC_Paperbox",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "灰泥"
+        ],
+        "source" : "",
+        "guid"   : "774f4b7b422257949a04241d9b99d564",
+        "name"   : "MISC_Plaster",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "🍌橡胶"
+        ],
+        "source" : "",
+        "guid"   : "1e63435bf1ee34c4fabafe4de4676431",
+        "name"   : "MISC_Rubber",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "橡胶"
+        ],
+        "source" : "",
+        "guid"   : "6cb6a6a678d4120499ff94294903b4ca",
+        "name"   : "MISC_Rubber_v2",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]
